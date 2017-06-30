@@ -15,7 +15,9 @@ name = gets.to_i #makes it int
 ```` 
 if something
 	do something
-else something
+elsif something
+	do something
+else 
 	do something
 end
 ````
