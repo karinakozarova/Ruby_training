@@ -2,6 +2,13 @@
 
 ```` ruby 
 puts "String" + variable
+puts string[0..4] #prints first 5 chars
+puts string.split #every word on new line
+puts string.capitalize
+puts string.reverse
+puts string.upcase
+puts string.downcase
+puts string.length
 ````
 #gets
 
