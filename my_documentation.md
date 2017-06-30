@@ -20,6 +20,7 @@ puts date.split(".") # puts num on new line
 ```` ruby 
 variable = gets
 name = gets.to_i     # makes it int
+name = gets.chomp #removes \n
 
 ````
 
@@ -33,3 +34,11 @@ else
 	do something
 end
 ````
+
+# arrays
+```` ruby 
+array_families = ["KK","AA","SD"]
+puts array_families
+````
+# interpretator 
+		irb --simple-prompt
