@@ -1,3 +1,13 @@
+# Comments
+```` ruby
+# one line comment
+=begin
+multi
+line
+comment
+=end
+````
+
 # puts 
 
 ```` ruby 
