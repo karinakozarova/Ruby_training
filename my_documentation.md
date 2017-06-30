@@ -12,6 +12,8 @@ comment
 # Constants and vars
 Vars must start with lowercase, consts must be named with an uppercase and can't change their value.
 
+# Assignment operator
+== is greater than =
 # puts 
 
 ```` ruby 
