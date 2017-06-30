@@ -7,4 +7,6 @@ puts "String" + variable
 
 ```` ruby 
 variable = gets
+name = gets.to_i #makes it int
+
 ````
