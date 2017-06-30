@@ -10,6 +10,11 @@ puts string.upcase
 puts string.downcase
 puts string.length
 ````
+
+```` ruby
+	date = "6.10.2000"
+	puts date.split(".") # puts num on new line
+````
 #gets
 
 ```` ruby 
