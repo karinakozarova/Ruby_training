@@ -2,13 +2,16 @@
 ```` ruby
 # one line comment
 =begin
+
 multi
 line
 comment
+
 =end
 ````
-#constants and vars
+# Constants and vars
 Vars must start with lowercase, consts must be named with an uppercase and can't change their value.
+
 # puts 
 
 ```` ruby 
@@ -52,4 +55,4 @@ array_families = ["KK","AA","SD"]
 puts array_families
 ````
 # interpretator 
-		irb --simple-prompt
+	irb --simple-prompt
