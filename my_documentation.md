@@ -7,7 +7,8 @@ line
 comment
 =end
 ````
-
+#constants and vars
+Vars must start with lowercase, consts must be named with an uppercase and can't change their value.
 # puts 
 
 ```` ruby 
