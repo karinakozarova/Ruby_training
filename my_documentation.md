@@ -22,8 +22,10 @@ Class variables are preceded by @@.<br>
 <blockquote>
 PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
 </blockquote>
-# puts 
 
+# Printing
+
+## puts
 ```` ruby 
 puts "String" + variable
 puts string[0..4]     #prints first 5 chars
@@ -37,13 +39,17 @@ puts "This is a variable: #{variable}"
 puts "\t \\t tabs."
 puts "\\n goes on new line"
 
-
 ````
 
 ````ruby
 date = "6.10.2000"
 puts date.split(".") # puts num on new line
 ````
+
+## print
+```` ruby
+	print "Info" # same as puts, no new line entered
+```` 
 # gets
 
 ```` ruby 
