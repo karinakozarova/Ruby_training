@@ -12,6 +12,10 @@ comment
 # Constants and vars
 Vars must start with lowercase, consts must be named with an uppercase and can't change their value.
 
+Global vars should start with $. __Globals are bad.__
+Instance variables are preceded by a @.
+Class variables are preceded by @@.
+
 # Assignment operator
 == is greater than =
 # puts 
