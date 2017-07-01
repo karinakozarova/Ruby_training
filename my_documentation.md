@@ -49,6 +49,12 @@ elsif something
 else 
 	do something
 end
+
+unless num>5 # if num<5
+		do something
+else 
+		do something
+end
 ````
 ```` ruby 
 puts "num is not 5" unless num == 5
