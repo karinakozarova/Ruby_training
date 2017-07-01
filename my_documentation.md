@@ -72,9 +72,9 @@ puts "num is not 5" unless num == 5
 puts "num is 5" if num == 5
 ````
 
-# loops
+# Loops
 
-## while
+## While
 Do is optional,always include it if one line loop. <br>
 ### Normal while:
 ```` ruby 
@@ -90,7 +90,13 @@ begin
 	puts num
 end while num<100
 ````
-
+## Until
+```` ruby
+until num>100 
+	puts num
+	num+=1
+end
+````
 # arrays
 ```` ruby 
 array_families = ["KK","AA","SD"]
