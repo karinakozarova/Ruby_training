@@ -75,12 +75,20 @@ puts "num is 5" if num == 5
 # loops
 
 ## while
-do is optional,always include it if one line loop
+Do is optional,always include it if one line loop. <br>
+### Normal while:
 ```` ruby 
 while count_while<=100 do	
 	puts count_while
 	count_while+=1
 end
+````
+### Post while:
+```` ruby 
+begin
+	num += 1
+	puts num
+end while num<100
 ````
 
 # arrays
