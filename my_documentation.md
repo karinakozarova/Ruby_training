@@ -8,13 +8,14 @@ line
 comment
 
 =end
+
 ````
 # Constants and vars
 Vars must start with lowercase, consts must be named with an uppercase and can't change their value.
 
-Global vars should start with $. __Globals are bad.__
-Instance variables are preceded by a @.
-Class variables are preceded by @@.
+Global vars should start with $. __Globals are bad.__ <br>
+Instance variables are preceded by a @.<br>
+Class variables are preceded by @@.<br>
 
 # Assignment operator
 == is greater than =
@@ -45,7 +46,7 @@ name = gets.chomp #removes \n
 
 ````
 
-# if else 
+# if-else 
 ```` ruby 
 if something
 	do something
@@ -55,12 +56,17 @@ else
 	do something
 end
 
+```` 
+
+```` ruby 
+
 unless num>5 # if num<5
 		do something
 else 
 		do something
 end
 ````
+
 ```` ruby 
 puts "num is not 5" unless num == 5
 puts "num is 5" if num == 5
