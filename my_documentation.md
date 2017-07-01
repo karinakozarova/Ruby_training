@@ -50,7 +50,10 @@ else
 	do something
 end
 ````
-
+```` ruby 
+puts "num is not 5" unless num == 5
+puts "num is 5" if num == 5
+````
 # arrays
 ```` ruby 
 array_families = ["KK","AA","SD"]
