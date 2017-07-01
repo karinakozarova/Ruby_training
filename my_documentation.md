@@ -34,6 +34,10 @@ puts string.upcase
 puts string.downcase
 puts string.length
 puts "This is a variable: #{variable}"
+puts "\t \\t tabs."
+puts "\\n goes on new line"
+
+
 ````
 
 ````ruby
