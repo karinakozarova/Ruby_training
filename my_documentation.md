@@ -17,8 +17,9 @@ Global vars should start with $. __Globals are bad.__ <br>
 Instance variables are preceded by a @.<br>
 Class variables are preceded by @@.<br>
 
-# Assignment operator
+# Operators and operations
 == is greater than =
+PEMDAS which stands for Parentheses Exponents Multiplication Division Addition Subtraction
 
 # puts 
 
