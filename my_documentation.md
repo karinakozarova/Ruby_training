@@ -18,6 +18,7 @@ Class variables are preceded by @@.
 
 # Assignment operator
 == is greater than =
+
 # puts 
 
 ```` ruby 
@@ -64,6 +65,18 @@ end
 puts "num is not 5" unless num == 5
 puts "num is 5" if num == 5
 ````
+
+# loops
+
+## while
+do is optional,always include it if one line loop
+```` ruby 
+while count_while<=100 do	
+	puts count_while
+	count_while+=1
+end
+````
+
 # arrays
 ```` ruby 
 array_families = ["KK","AA","SD"]
