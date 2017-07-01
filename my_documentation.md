@@ -18,9 +18,10 @@ Instance variables are preceded by a @.<br>
 Class variables are preceded by @@.<br>
 
 # Operators and operations
-== is greater than =
-PEMDAS which stands for Parentheses Exponents Multiplication Division Addition Subtraction
-
+== is greater than =	<br>
+<blockquote>
+PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
+</blockquote>
 # puts 
 
 ```` ruby 
