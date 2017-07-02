@@ -19,6 +19,8 @@ Class variables are preceded by @@.<br>
 
 # Operators and operations
 == is greater than =	<br>
+... operator includes a range's first num and excludes the last
+.. operator includes both the first and the last num in the range
 <blockquote>
 PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
 </blockquote>
@@ -126,10 +128,19 @@ for i in 0..num
 	puts i
 end
 ```` 
+
 <b> 
 The i in the for loop isn't in a local scope!!!
 </b>
-
+## each iterator
+<b> 
+The each iterator creates a local scope!!!
+</b>
+````ruby
+(0...n+1).each do |i|
+	puts i
+end
+````
 # Arrays
 
 ```` ruby 
