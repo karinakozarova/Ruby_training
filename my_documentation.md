@@ -17,11 +17,15 @@ Global vars should start with $. __Globals are bad.__ <br>
 Instance variables are preceded by a @.<br>
 Class variables are preceded by @@.<br>
 
-# Assignment operator
-== is greater than =
+# Operators and operations
+== is greater than =	<br>
+<blockquote>
+PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
+</blockquote>
 
-# puts 
+# Printing
 
+## puts
 ```` ruby 
 puts "String" + variable
 puts string[0..4]     #prints first 5 chars
@@ -31,12 +35,21 @@ puts string.reverse
 puts string.upcase
 puts string.downcase
 puts string.length
+puts "This is a variable: #{variable}"
+puts "\t \\t tabs."
+puts "\\n goes on new line"
+
 ````
 
 ````ruby
 date = "6.10.2000"
 puts date.split(".") # puts num on new line
 ````
+
+## print
+```` ruby
+	print "Info" # same as puts, no new line entered
+```` 
 # gets
 
 ```` ruby 
