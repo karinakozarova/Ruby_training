@@ -105,11 +105,19 @@ end while num<100
 ````
 ## Until
 ```` ruby
-until num>100 
+until num>100 do #again, do is optional
 	puts num
 	num+=1
 end
 ````
+
+# begin.. until
+```` ruby
+begin 
+	sum += num
+	num-=1
+end until num<0
+```` 
 # arrays
 ```` ruby 
 array_families = ["KK","AA","SD"]
