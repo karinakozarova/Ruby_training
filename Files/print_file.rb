@@ -4,3 +4,4 @@ puts "Here is the content of #{filename}"
 puts file.read # prints content
 puts "\n\tFile address:  #{file}"   
 
+close()
