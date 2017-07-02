@@ -136,8 +136,10 @@ where argv can be any data type
 
 # Files
 ````ruby
-file = open(filename)
+file = open(filename) # default opens in read mode
+file = open(filename, "w") # opens in write mode
 puts file.read # prints content
 file.close() # closes 
 file.truncate(0) # removes file text 
+puts file.readline # reads first line
 ````
