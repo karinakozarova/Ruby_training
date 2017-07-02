@@ -123,3 +123,13 @@ puts array_families
 sleep time 
 ````
 where time is a number - seconds
+
+# argv
+
+```` ruby
+a_name = ARGV[0]
+testy = ARGV[1]
+```` 
+ARGV is everything that is writeten after running a script. <br>
+	ruby main.rb argv1 argv2 ardvn
+where argv can be any data type
