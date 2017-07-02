@@ -135,6 +135,9 @@ ARGV is everything that is writeten after running a script. <br>
 where argv can be any data type
 
 # Files
-	file = open(filename)
-	puts file.read # prints content
-	close() 
+````ruby
+file = open(filename)
+puts file.read # prints content
+file.close() # closes 
+file.truncate(0) # removes file text 
+````
