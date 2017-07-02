@@ -1,10 +1,12 @@
 # open file 
 filename = "file.txt" 
-# Read file
+
+# read file
 file = open(filename)
 original_file = file.read
-	
+puts file
 file.close
+
 # write string to end of file
 file = open(filename, "w") 
 string1 = "\nTesty input 3"
@@ -15,5 +17,6 @@ string2 = "Beginning test input file_all\n"
 file.truncate(0)
 file.write(string2 + original_file + string1)
 
-#close file
+# close file
 file.close()
+
