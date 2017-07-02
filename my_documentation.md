@@ -118,6 +118,17 @@ begin
 	num-=1
 end until num<0
 ```` 
+
+## for loop
+
+```` ruby
+for i in 0..num
+	puts i
+end
+```` 
+<blockquote> 
+__the i in the for loop isn't in a local scope__
+</blockquote>
 # arrays
 ```` ruby 
 array_families = ["KK","AA","SD"]
