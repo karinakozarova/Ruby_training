@@ -176,3 +176,10 @@ file.close() # closes
 file.truncate(0) # removes file text 
 puts file.readline # reads first line
 ````
+
+# ASCII 
+
+```` ruby
+letter = 'a'.ord   # gives numeric ASCII value of a
+number.chr         # gives the character from an ASCII number
+````
