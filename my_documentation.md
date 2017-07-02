@@ -104,3 +104,9 @@ puts array_families
 ````
 # interpretator 
 	irb --simple-prompt
+
+# sleep 
+```` ruby
+sleep time 
+````
+where time is a number - seconds
