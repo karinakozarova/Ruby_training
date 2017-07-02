@@ -137,3 +137,4 @@ where argv can be any data type
 # Files
 	file = open(filename)
 	puts file.read # prints content
+	close() 
