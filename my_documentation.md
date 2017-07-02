@@ -126,14 +126,17 @@ for i in 0..num
 	puts i
 end
 ```` 
-<blockquote> 
-__the i in the for loop isn't in a local scope__
-</blockquote>
-# arrays
+<b> 
+The i in the for loop isn't in a local scope!!!
+</b>
+
+# Arrays
+
 ```` ruby 
 array_families = ["KK","AA","SD"]
 puts array_families
 ````
+
 # interpretator 
 	irb --simple-prompt
 
@@ -149,7 +152,7 @@ where time is a number - seconds
 a_name = ARGV[0]
 testy = ARGV[1]
 ```` 
-ARGV is everything that is writeten after running a script. <br>
+ARGV is everything that is writen after running a script. <br>
 	ruby main.rb argv1 argv2 ardvn
 where argv can be any data type
 
