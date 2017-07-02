@@ -133,3 +133,7 @@ testy = ARGV[1]
 ARGV is everything that is writeten after running a script. <br>
 	ruby main.rb argv1 argv2 ardvn
 where argv can be any data type
+
+# Files
+	file = open(filename)
+	puts file.read # prints content
