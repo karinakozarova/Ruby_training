@@ -55,7 +55,7 @@ puts date.split(".") # puts num on new line
 ```` ruby 
 variable = gets
 name = gets.to_i     # makes it int
-name = gets.chomp #removes \n
+name = gets.chomp    # removes \n
 
 ````
 
@@ -73,7 +73,7 @@ end
 
 ```` ruby 
 
-unless num>5 # if num<5
+unless num > 5   # if num<5
 		do something
 else 
 		do something
@@ -91,9 +91,9 @@ puts "num is 5" if num == 5
 Do is optional,always include it if one line loop. <br>
 ### Normal while:
 ```` ruby 
-while count_while<=100 do	
+while count_while <= 100 do	
 	puts count_while
-	count_while+=1
+	count_while += 1
 end
 ````
 ### Post while:
@@ -101,13 +101,13 @@ end
 begin
 	num += 1
 	puts num
-end while num<100
+end while num < 100
 ````
 ## Until
 ```` ruby
-until num>100 do #again, do is optional
+until num > 100 do # again, do is optional
 	puts num
-	num+=1
+	num += 1
 end
 ````
 
@@ -115,8 +115,8 @@ end
 ```` ruby
 begin 
 	sum += num
-	num-=1
-end until num<0
+	num -= 1
+end until num < 0
 ```` 
 
 ## for loop
