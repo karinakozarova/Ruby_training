@@ -223,6 +223,24 @@ p stack         # => [1, 2, 3]
 p top           # => 4
 ````
 
+## More array methods
+````ruby
+[1, 2, 3].join("-")        # => "1-2-3"
+[1, 2, 3].permutation      # сещате се какво връща
+[1, 2].product([3, 4])     # => [[1, 3], [1, 4], [2, 3], [2, 4]]
+[[1, 2], [3, 4]].transpose # => [[1, 3], [2, 4]]
+[1, 2, 3, 4].shuffle       # разбърква масива произволно
+````
+## String arrays
+
+````ruby
+%w(chunky bacon)     == ['chunky', 'bacon']
+%w[a b c]            == ['a', 'b', 'c']
+%w{cool stuff}       == ['cool', 'stuff']
+%w<coffee tea water> == ['coffee', 'tea', 'water']
+%w|foo bar|          == ['foo', 'bar']
+````
+
 # sleep 
 ```` ruby
 sleep time 
