@@ -19,7 +19,8 @@ comment
 <li>and finally it must be the smallest code that meets all of the above.</li> <br>
 <br>
 It's time to stop refactoring when the code makes a reasonable stab at meeting those goals, and when any further changes would add no further benefit.
-</li>ul>
+</li>
+</ul>
 # Constants and vars
 Vars must start with lowercase, consts must be named with an uppercase and can't change their value.
 
