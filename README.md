@@ -27,6 +27,12 @@ Global vars should start with $. __Globals are bad.__ <br>
 Instance variables are preceded by a @.<br>
 Class variables are preceded by @@.<br>
 
+````ruby
+variable = 1   # local
+Variable = 1   # const
+$variable = 1  # global
+````
+
 # Operators and operations
 == is greater than =	<br>
 ... operator includes a range's first num and excludes the last
