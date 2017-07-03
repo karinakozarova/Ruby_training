@@ -241,6 +241,17 @@ p top           # => 4
 %w|foo bar|          == ['foo', 'bar']
 ````
 
+## iterations
+````ruby
+primes = [2, 3, 5, 7, 11]
+
+primes.each { |n| puts n }
+
+primes.each do |n|
+  puts n
+end
+````
+
 # sleep 
 ```` ruby
 sleep time 
@@ -272,4 +283,19 @@ puts file.readline # reads first line
 ```` ruby
 letter = 'a'.ord   # gives numeric ASCII value of a
 number.chr         # gives the character from an ASCII number
+````
+
+# Hashes
+
+## indexing
+````ruby
+numbers = {:one => :edno, :two => :dve}
+
+numbers[:one]     # => :edno
+numbers[:three]   # => nil
+
+numbers[:three] = :tri
+
+numbers[:three]                     # => :tri
+numbers.fetch(:four, :keine_ahnung) # => :keine_ahnung
 ````
