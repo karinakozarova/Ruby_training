@@ -42,6 +42,14 @@ $variable = 1  # global
 PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
 </blockquote>
 
+# Numbers
+Int <br>
+Float <br>
+Bignum (core) <br>
+BigDecimal (stdlib) <br>
+Rational <br>
+Complex <br>
+
 # Printing
 
 ## puts
