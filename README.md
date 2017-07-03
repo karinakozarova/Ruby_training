@@ -21,6 +21,10 @@ comment
 It's time to stop refactoring when the code makes a reasonable stab at meeting those goals, and when any further changes would add no further benefit.
 </li>
 </ul>
+
+# interpretator 
+	irb --simple-prompt
+
 # Constants and vars
 Vars must start with lowercase, consts must be named with an uppercase and can't change their value.
 
@@ -181,13 +185,32 @@ end
 
 # Arrays
 
+Saves references, not the elements <br>
+__Size is dynamic.__ <br>
+
 ```` ruby 
 array_families = ["KK","AA","SD"]
 puts array_families
+array_families.sort # returns a new array!!
+array_families.reverse # return a new array!!
+array_families.size
+array_families.length
+array_families.include? # returns true or false, linear search 
 ````
+## Array mutating
+````ruby
+numbers = [1, 2, 3]
 
-# interpretator 
-	irb --simple-prompt
+numbers << 4
+p numbers   # => [1, 2, 3, 4]
+
+numbers.insert 0, :zero
+p numbers   # => [:zero, 1, 2, 3, 4]
+
+result = numbers.delete_at(0)
+p result    # => :zero
+p numbers   # => [1, 2, 3, 4]
+```` 
 
 # sleep 
 ```` ruby
