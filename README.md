@@ -308,3 +308,11 @@ puts numbers.size             # => 2
 puts numbers.invert           # => {2=>1, 4=>3}
 puts numbers.merge({5 => 6})  # => {1=>2, 3=>4, 5=>6}
 ````
+
+## after 1.9
+
+The second line is preffered after ruby v.1.9
+````ruby
+{:one => 1, :two => 2}
+{one: 1, two: 2}
+````
