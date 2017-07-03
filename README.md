@@ -143,6 +143,17 @@ The each iterator creates a local scope!!!
 	puts i
 end
 ````
+
+# Case 
+
+````ruby
+case degrees_unit 
+when  'C' then result = degrees
+when  'K' then result = degrees - 273.15
+when  'F' then result = (degrees-32)*(5/9)
+end
+````
+
 # Arrays
 
 ```` ruby 

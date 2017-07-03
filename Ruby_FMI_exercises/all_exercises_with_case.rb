@@ -7,7 +7,6 @@ def convert_between_temperature_units(degrees, degrees_unit, result_unit)
 	end
 
 	# celsium_unit to result_unit
-
 	case result_unit
 	when 'C' then end_result = result
 	when 'K' then end_result = result + 273.15
@@ -20,6 +19,7 @@ end
 
 
 def boiling_point_of_substance(substance, result_unit)	
+	
 	# boiling degrees
 	case substance
 	when "water" then result = 100
@@ -44,6 +44,7 @@ def melting_point_of_substance(substance, result_unit)
 	when "silver" then result = 961.8
 	when "copper" then result = 1085
 	end
+	
 	final_result = convert_between_temperature_units(result, 'C', result_unit)
 	final_result
 end
