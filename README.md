@@ -316,3 +316,6 @@ The second line is preffered after ruby v.1.9
 {:one => 1, :two => 2}
 {one: 1, two: 2}
 ````
+
+## to do
+Make sure to include the ! so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
