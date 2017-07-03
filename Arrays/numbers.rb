@@ -22,3 +22,15 @@ puts order
 puts "Does the array include 0"
 answer = numbers.include?0
 puts answer
+
+first_element = numbers[0]
+puts first_element
+
+last_element = numbers[size-1]
+puts last_element
+
+numbers<<9
+puts numbers
+
+numbers.pop
+puts numbers
