@@ -211,6 +211,17 @@ result = numbers.delete_at(0)
 p result    # => :zero
 p numbers   # => [1, 2, 3, 4]
 ```` 
+## Array stack
+````ruby
+stack = [1, 2, 3]
+
+stack.push 4
+p stack         # => [1, 2, 3, 4]
+
+top = stack.pop
+p stack         # => [1, 2, 3]
+p top           # => 4
+````
 
 # sleep 
 ```` ruby
