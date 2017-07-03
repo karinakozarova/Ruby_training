@@ -18,3 +18,7 @@ puts size
 puts "Ordered:"
 order = arr.sort
 puts order
+
+puts "Does the array include 0"
+answer = numbers.include?0
+puts answer
