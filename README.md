@@ -40,6 +40,8 @@ puts string.length
 puts "This is a variable: #{variable}"
 puts "\t \\t tabs."
 puts "\\n goes on new line"
+puts "%s stringer" % "string" #string stringer
+puts "stringg".chop # removes one g
 
 ````
 

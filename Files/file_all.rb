@@ -4,7 +4,7 @@ filename = "file.txt"
 # read file
 file = open(filename)
 original_file = file.read
-puts file
+puts file.read 
 file.close
 
 # write string to end of file
