@@ -2,4 +2,6 @@ def hello_world
 	puts "Hello world"
 end
 
-hello_world()
+5.times{
+	hello_world()
+}
