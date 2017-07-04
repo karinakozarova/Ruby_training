@@ -17,7 +17,6 @@ User: KarinaK
 Password: kari
 
 User: Kari
-User: Kari
 Password: Kkk
 
 User: hey
