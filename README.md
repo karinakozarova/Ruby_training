@@ -46,6 +46,9 @@ $variable = 1  # global
 PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
 </blockquote>
 
+## combined comparison operator
+The combined comparison operator looks like this: <=>. It returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second
+
 # Numbers
 Int <br>
 Float <br>
@@ -226,7 +229,7 @@ p top           # => 4
 ## More array methods
 ````ruby
 [1, 2, 3].join("-")        # => "1-2-3"
-[1, 2, 3].permutation      # сещате се какво връща
+[1, 2, 3].permutation      
 [1, 2].product([3, 4])     # => [[1, 3], [1, 4], [2, 3], [2, 4]]
 [[1, 2], [3, 4]].transpose # => [[1, 3], [2, 4]]
 [1, 2, 3, 4].shuffle       # разбърква масива произволно
