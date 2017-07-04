@@ -22,7 +22,7 @@ It's time to stop refactoring when the code makes a reasonable stab at meeting t
 </li>
 </ul>
 
-# interpretator 
+# interpretator
 	irb --simple-prompt
 
 # Constants and vars
@@ -57,7 +57,7 @@ Complex <br>
 # Printing
 
 ## puts
-```` ruby 
+```` ruby
 puts "String" + variable
 puts string[0..4]     #prints first 5 chars
 puts string.split      #every word on new line
@@ -82,38 +82,38 @@ puts date.split(".") # puts num on new line
 ## print
 ```` ruby
 	print "Info" # same as puts, no new line entered
-```` 
+````
 # gets
 
-```` ruby 
+```` ruby
 variable = gets
 name = gets.to_i     # makes it int
 name = gets.chomp    # removes \n
 
 ````
 
-# if-else 
-```` ruby 
+# if-else
+```` ruby
 if something
 	do something
 elsif something
 	do something
-else 
+else
 	do something
 end
 
-```` 
+````
 
-```` ruby 
+```` ruby
 
 unless num > 5   # if num<5
 		do something
-else 
+else
 		do something
 end
 ````
 
-```` ruby 
+```` ruby
 puts "num is not 5" unless num == 5
 puts "num is 5" if num == 5
 ````
@@ -123,14 +123,14 @@ puts "num is 5" if num == 5
 ## While
 Do is optional,always include it if one line loop. <br>
 ### Normal while:
-```` ruby 
-while count_while <= 100 do	
+```` ruby
+while count_while <= 100 do
 	puts count_while
 	count_while += 1
 end
 ````
 ### Post while:
-```` ruby 
+```` ruby
 begin
 	num += 1
 	puts num
@@ -146,11 +146,11 @@ end
 
 # begin.. until
 ```` ruby
-begin 
+begin
 	sum += num
 	num -= 1
 end until num < 0
-```` 
+````
 
 ## for loop
 
@@ -158,13 +158,13 @@ end until num < 0
 for i in 0..num
 	puts i
 end
-```` 
+````
 
-<b> 
+<b>
 The i in the for loop isn't in a local scope!!!
 </b>
 ## each iterator
-<b> 
+<b>
 The each iterator creates a local scope!!!
 </b>
 ````ruby
@@ -173,10 +173,10 @@ The each iterator creates a local scope!!!
 end
 ````
 
-# Case 
+# Case
 
 ````ruby
-case degrees_unit 
+case degrees_unit
 when  'C' then result = degrees
 when  'K' then result = degrees - 273.15
 when  'F' then result = (degrees-32)*(5/9)
@@ -188,14 +188,14 @@ end
 Saves references, not the elements <br>
 __Size is dynamic.__ <br>
 
-```` ruby 
+```` ruby
 array_families = ["KK","AA","SD"]
 puts array_families
 array_families.sort # returns a new array!!
 array_families.reverse # return a new array!!
 array_families.size
 array_families.length
-array_families.include? # returns true or false, linear search 
+array_families.include? # returns true or false, linear search
 ````
 ## Array mutating
 ````ruby
@@ -210,7 +210,7 @@ p numbers   # => [:zero, 1, 2, 3, 4]
 result = numbers.delete_at(0)
 p result    # => :zero
 p numbers   # => [1, 2, 3, 4]
-```` 
+````
 ## Array stack
 ````ruby
 stack = [1, 2, 3]
@@ -252,9 +252,9 @@ primes.each do |n|
 end
 ````
 
-# sleep 
+# sleep
 ```` ruby
-sleep time 
+sleep time
 ````
 where time is a number - seconds
 
@@ -263,7 +263,7 @@ where time is a number - seconds
 ```` ruby
 a_name = ARGV[0]
 testy = ARGV[1]
-```` 
+````
 ARGV is everything that is writen after running a script. <br>
 	ruby main.rb argv1 argv2 ardvn
 where argv can be any data type
@@ -273,12 +273,12 @@ where argv can be any data type
 file = open(filename) # default opens in read mode
 file = open(filename, "w") # opens in write mode
 puts file.read # prints content
-file.close() # closes 
-file.truncate(0) # removes file text 
+file.close() # closes
+file.truncate(0) # removes file text
 puts file.readline # reads first line
 ````
 
-# ASCII 
+# ASCII
 
 ```` ruby
 letter = 'a'.ord   # gives numeric ASCII value of a
@@ -316,6 +316,31 @@ The second line is preffered after ruby v.1.9
 {:one => 1, :two => 2}
 {one: 1, two: 2}
 ````
+# methods
+## Defining methods
+````ruby
+def method_name(parametres)
+	do something
+end
 
-## to do
+method_name(var)
+````
+
+## Methods with variability in parametres count
+````ruby
+	def name(*names)
+		# we can get 1,2,3 or more names
+	end
+````
+
+## default method parametres value
+````ruby
+def name(name = 'default value')
+	do sth
+end
+````
+
+
+## to include
 Make sure to include the ! so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
+
