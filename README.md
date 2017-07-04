@@ -336,11 +336,33 @@ method_name(var)
 	end
 ````
 __ N.B! There can be only one parametre with variable count!!! __
+
 ## default method parametres value
 ````ruby
 def name(name = 'default value')
 	do sth
 end
+````
+## Methods with skiping parametres
+````ruby
+def name(name = {})
+	do sth
+end
+````
+this way, a parametres can be skipped
+
+## Predicati (methods)
+A name of the method can end in ? if it return true or false. (by convention)
+
+## Anonymous functions ( lambda )
+Defined with keyword lambda.
+````ruby
+	pow = lambda {|a,b| a**b} # definition
+
+	# calling
+	pow.call 2,3
+	pow[2,3]
+	pow.(2,3)
 ````
 
 
