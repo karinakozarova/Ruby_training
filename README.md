@@ -46,6 +46,9 @@ $variable = 1  # global
 PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
 </blockquote>
 
+## combined comparison operator
+The combined comparison operator looks like this: <=>. It returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second
+
 # Numbers
 Int <br>
 Float <br>
