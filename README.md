@@ -229,7 +229,7 @@ p top           # => 4
 ## More array methods
 ````ruby
 [1, 2, 3].join("-")        # => "1-2-3"
-[1, 2, 3].permutation      
+[1, 2, 3].permutation
 [1, 2].product([3, 4])     # => [[1, 3], [1, 4], [2, 3], [2, 4]]
 [[1, 2], [3, 4]].transpose # => [[1, 3], [2, 4]]
 [1, 2, 3, 4].shuffle       # разбърква масива произволно
@@ -335,7 +335,7 @@ method_name(var)
 		# we can get 1,2,3 or more names
 	end
 ````
-
+__ N.B! There can be only one parametre with variable count!!! __
 ## default method parametres value
 ````ruby
 def name(name = 'default value')
