@@ -376,6 +376,19 @@ double.(2)
 Biggest diff lambda - proc: In proc -> ArgumentError <br>
 return@ lambda -> return outside the body of the lambda <br>
 return@proc -> returns putside of the body of the method, in whic the proc is called
+
+# Class
+````ruby
+class Bacon
+  def chunky?
+    'yes, of course!'
+  end
+end
+
+bacon = Bacon.new
+bacon.chunky?      # => "yes, of course!
+
+````
 ## to include
 Make sure to include the ! so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
 
