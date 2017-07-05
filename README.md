@@ -387,8 +387,45 @@ end
 
 bacon = Bacon.new
 bacon.chunky?      # => "yes, of course!
+````
+Класове се създават с class
+Можем да дефинираме initialize - нещо като конструктор
+Инстанционните променливи се префиксват с @ и се достъпват само отвътре
+Ако искаме да достъпим такава променлива отвън - трябва да го направим чрез метод.Ако извикате #methods на нещо, ще получите масив от символи с имената на методите му.
 
+# Modules
+````ruby
+module UselessStuff
+  def almost_pi
+    3.1415
+  end
+end
+
+class Something
+  include UselessStuff
+end
+
+Something.new.almost_pi # => 3.1415
+````
+Модулите в Ruby просто съдържат методи. Дефинират се подобно на класове:
+````ruby
+module UselessStuff
+  def almost_pi
+    3.1415
+  end
+
+  def almost_e
+    2.71
+  end
+end
 ````
 ## to include
 Make sure to include the ! so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
+
+## all and any
+````ruby
+[1, 2, 3, nil].all?     # => false
+[1, 2, 3, :nil].all?    # => true
+[1, 2, 3, false].any?   # => true
+````
 
