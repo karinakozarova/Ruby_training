@@ -38,8 +38,28 @@ end
 
 print "Num1: "
 # num1 = gets.chomp.to_i
-num1 = -525
+num1 = -555
 if num1<0
   num1 *= -1 #make it positive
 end
-puts number_of_nums(num1)
+
+num1_a = (0...10).to_a
+num1_a.each {|x| num1_a[x] = 0}
+num1_a =  number_of_nums(num1)
+
+puts num1_a
+
+print "Num2: "
+# num2 = gets.chomp.to_i
+num2 = 55521
+if num2<0
+  num2 *= -1 #make it positive
+end
+
+num2_a = (0...10).to_a
+num2_a.each {|x| num2_a[x] = 0}
+num2_a =  number_of_nums(num2)
+
+puts num2_a
+
+# compare num1_a and nun2_a
