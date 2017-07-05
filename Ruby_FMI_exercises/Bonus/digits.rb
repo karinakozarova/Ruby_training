@@ -23,6 +23,7 @@ def digit_counting(last_digit, nums)
   end
 end
 
+
 # how many times is a digit in a number
 def number_of_nums (num)
   # create an array with 10 values(0-9)
@@ -38,7 +39,7 @@ end
 
 print "Num1: "
 # num1 = gets.chomp.to_i
-num1 = -555
+num1 = -5552334
 if num1<0
   num1 *= -1 #make it positive
 end
@@ -62,4 +63,14 @@ num2_a =  number_of_nums(num2)
 
 puts num2_a
 
-# compare num1_a and nun2_a
+# compare num1_a and num2_a
+count = 0
+i = 0
+while i<10  do
+    if num1_a[i] > 0 && num2_a[i] > 0
+        count += 1
+    end
+   i +=1
+end
+
+puts "Count: #{count}"
