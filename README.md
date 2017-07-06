@@ -444,3 +444,15 @@ Make sure you don't put any spaces in your symbol name—if you do, Ruby will ge
 ````ruby
 my_first_symbol = :a
 ````
+
+## converting symbols <-> strings
+
+````ruby
+Converting between strings and symbols is a snap.
+
+:sasquatch.to_s
+# ==> "sasquatch"
+
+"sasquatch".to_sym
+# ==> :sasquatch
+````
