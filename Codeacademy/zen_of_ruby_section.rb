@@ -25,3 +25,31 @@ case greeting
   when "Finnish" then puts "Haloo!"
     else puts "I don't know that language"
 end
+
+# Write your code on line 2!
+puts favorite_language ||= "C"
+
+def multiple_of_three(n)
+   n % 3 == 0 ? "True" : "False"
+end
+
+def multiple_of_three(n)
+   return n % 3 == 0 ? "True" : "False"
+end
+
+def a
+  puts "A was evaluated!"
+  return true
+end
+
+def b
+  puts "B was also evaluated!"
+  return true
+end
+
+puts a || b
+puts "------"
+puts a && b
+
+my_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+my_array.each do |x| puts x unless x % 2 == 1 end

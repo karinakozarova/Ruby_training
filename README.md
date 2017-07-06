@@ -46,6 +46,8 @@ $variable = 1  # global
 PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
 </blockquote>
 
+But what if we only want to assign a variable if it hasn't already been assigned? For this, we can use the conditional assignment operator: ||=.
+
 ## ternary
 An even more concise version of if/else is the ternary conditional expression. It's called "ternary" because it takes three arguments: a boolean, an expression to evaluate if the boolean is true, and an expression to evaluate if the boolean is false.
 
@@ -370,7 +372,7 @@ my_hash = Hash.new("Trady Blix")
 ````
 ## .object_id
 The .object_id method gets the ID of an object—it's how Ruby knows whether two objects are the exact same object.
-## 
+##
 
 Ruby includes two hash methods, .each_key and .each_value, that do exactly what you'd expect:
 ````ruby
@@ -384,6 +386,9 @@ my_hash.each_value { |v| print v, " " }
 ````
 
 # methods
+Ruby's methods will return the result of the last evaluated expression.
+
+
 ## Defining methods
 ````ruby
 def method_name(parametres)
