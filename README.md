@@ -572,3 +572,8 @@ The & is used to convert the cube proc into a block (since .collect! and .map! n
 
 Instructions
 The .floor method rounds a float (a number with a decimal) down to the nearest integer. Write a proc called round_down that will do this rounding (we've added the code to pass it to floats.collect).
+
+## Why bother saving our blocks as procs? There are two main advantages:
+
+Procs are full-fledged objects, so they have all the powers and abilities of objects. (Blocks do not.)
+Unlike blocks, procs can be called over and over without rewriting them. This prevents you from having to retype the contents of your block every time you need to execute a particular bit of code.
