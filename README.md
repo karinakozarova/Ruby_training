@@ -342,6 +342,18 @@ my_hash = Hash.new("Trady Blix")
 ````
 ## .object_id
 The .object_id method gets the ID of an object—it's how Ruby knows whether two objects are the exact same object.
+## 
+
+Ruby includes two hash methods, .each_key and .each_value, that do exactly what you'd expect:
+````ruby
+my_hash = { one: 1, two: 2, three: 3 }
+
+my_hash.each_key { |k| print k, " " }
+# ==> one two three
+
+my_hash.each_value { |v| print v, " " }
+# ==> 1 2 3
+````
 
 # methods
 ## Defining methods
