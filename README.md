@@ -167,9 +167,8 @@ end
 The i in the for loop isn't in a local scope!!!
 </b>
 ## each iterator
-<b>
 The each iterator creates a local scope!!!
-</b>
+
 ````ruby
 (0...n+1).each do |i|
 	puts i
@@ -342,7 +341,7 @@ puts new_hash
 my_hash = Hash.new("Trady Blix")
 ````
 ## .object_id
-The .object_id method gets the ID of an object—it's how Ruby knows whether two objects are the exact same object. 
+The .object_id method gets the ID of an object—it's how Ruby knows whether two objects are the exact same object.
 
 # methods
 ## Defining methods
@@ -360,7 +359,7 @@ method_name(var)
 		# we can get 1,2,3 or more names
 	end
 ````
-__ N.B! There can be only one parametre with variable count!!! __
+__N.B! There can be only one parametre with variable count!!!__
 
 ## default method parametres value
 ````ruby
@@ -374,7 +373,6 @@ def name(name = {})
 	do sth
 end
 ````
-this way, a parametres can be skipped
 
 ## Predicati (methods)
 A name of the method can end in ? if it return true or false. (by convention)
