@@ -98,3 +98,11 @@ else
 end
 
 favorite_animal ||= "cat"
+
+def square(num)
+    num*num
+end
+
+3.times do
+  puts "I'm a refactoring master!"
+end
