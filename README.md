@@ -319,6 +319,11 @@ The second line is preffered after ruby v.1.9
 {:one => 1, :two => 2}
 {one: 1, two: 2}
 ````
+
+## defaukt hash value
+````ruby
+my_hash = Hash.new("Trady Blix")
+````
 # methods
 ## Defining methods
 ````ruby
