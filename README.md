@@ -320,10 +320,13 @@ The second line is preffered after ruby v.1.9
 {one: 1, two: 2}
 ````
 
-## defaukt hash value
+## default hash value
 ````ruby
 my_hash = Hash.new("Trady Blix")
 ````
+## .object_id
+The .object_id method gets the ID of an object—it's how Ruby knows whether two objects are the exact same object. 
+
 # methods
 ## Defining methods
 ````ruby
