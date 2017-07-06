@@ -456,3 +456,4 @@ Converting between strings and symbols is a snap.
 "sasquatch".to_sym
 # ==> :sasquatch
 ````
+Besides using .to_sym, you can also use .intern. This will internalize the string into a symbol and works just like .to_sym.
