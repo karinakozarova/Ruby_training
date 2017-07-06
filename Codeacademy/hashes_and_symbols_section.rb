@@ -56,3 +56,23 @@ symbols = []
 strings.each do |x|
   symbols.push(x.to_sym)
 end
+
+strings = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+
+# Add your code below!
+
+symbols = []
+
+strings.each do |x|
+  symbols.push(x.intern)
+end
+
+movies = {
+    :sdsa => "sdsa",
+    :ddd => "ddd",
+}
+movies = {
+    sdsa: "sdsa",
+    ddd: "ddd",
+}
+    
