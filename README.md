@@ -46,6 +46,12 @@ $variable = 1  # global
 PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
 </blockquote>
 
+## ternary
+An even more concise version of if/else is the ternary conditional expression. It's called "ternary" because it takes three arguments: a boolean, an expression to evaluate if the boolean is true, and an expression to evaluate if the boolean is false.
+
+The syntax looks like this:
+
+boolean ? Do this if true: Do this if false
 ## combined comparison operator
 The combined comparison operator looks like this: <=>. It returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second
 
@@ -484,3 +490,4 @@ Converting between strings and symbols is a snap.
 # ==> :sasquatch
 ````
 Besides using .to_sym, you can also use .intern. This will internalize the string into a symbol and works just like .to_sym.
+
