@@ -319,7 +319,7 @@ The second line is preffered after ruby v.1.9
 {:one => 1, :two => 2}
 {one: 1, two: 2}
 ````
-
+The hash syntax you've seen so far (with the => symbol between keys and values) is sometimes nicknamed the hash rocket style.
 ## default hash value
 ````ruby
 my_hash = Hash.new("Trady Blix")
