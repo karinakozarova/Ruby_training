@@ -53,3 +53,23 @@ puts a && b
 
 my_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 my_array.each do |x| puts x unless x % 2 == 1 end
+
+# Write your code below!
+'L'.upto('P'){|letter| puts letter}
+
+age = 26
+age.respond_to?:next
+
+alphabet = ["a", "b", "c"]
+alphabet<<'d' # Update me!
+
+caption = "A giraffe surrounded by "
+caption << "weezards!" # Me, too!
+
+favorite_things = ["Ruby", "espresso", "candy"]
+
+puts "A few of my favorite things:"
+
+favorite_things.each do |thing|
+  puts "I love #{thing}!"
+end
