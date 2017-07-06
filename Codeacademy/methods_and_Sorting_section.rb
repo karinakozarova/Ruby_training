@@ -100,3 +100,13 @@ welcome('k')
 
 fruits = ["orange", "apple", "banana", "pear", "grapes"]
 fruits.sort! {|x,y| y<=>x}
+
+my_array = [1, 2, 3, 4, 5]
+
+my_array.each do  |x|
+  x = x*x
+  puts x
+end
+
+
+
