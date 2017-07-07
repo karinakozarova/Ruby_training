@@ -1,18 +1,12 @@
 def puts_1_to_10
   (1..10).each { |i| puts i }
 end
+puts_1_to_10 
 
-puts_1_to_10 # Ignore this for now. We'll explain it soon!
-
-# Define your method below!
 def greeting
-
   puts "Hello"
-
 end
-# Define your method above this line.
-greeting # Ignore this for now. We'll explain
-# it in the next exercise!
+greeting 
 
 def array_of_10
   puts (1..10).to_a
@@ -46,7 +40,6 @@ end
 end
 1.times { puts "As am I!" }
 
-# method that capitalizes a word
 def capitalize(string)
   puts "#{string[0].upcase}#{string[1..-1]}"
 end
@@ -67,13 +60,10 @@ capitalize("jane") # prints "Jane"
 [1, 2, 3, 4, 5].each { |i| puts 5 }
 
 my_array = [3, 4, 8, 7, 1, 6, 5, 9, 2]
-# Call the sort! method on my_array below.
-# my_array should then equal [1, 2, 3, 4, 5, 6, 7, 8, 9].
-my_array.sort!
+my_array.sort! # [1, 2, 3, 4, 5, 6, 7, 8, 9].
 
 # library sorting code
 books = ["Charlie and the Chocolate Factory", "War and Peace", "Utopia", "A Brief History of Time", "A Wrinkle in Time"]
-# How might we sort! the books in alphabetical order? (Hint, hint)
 books.sort!
 
 book_1 = "A Wrinkle in Time"
