@@ -57,6 +57,10 @@ boolean ? Do this if true: Do this if false
 ## combined comparison operator
 The combined comparison operator looks like this: <=>. It returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second
 
+## other 
+Make sure to include the ! so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
+
+
 # Numbers
 Int <br>
 Float <br>
@@ -103,7 +107,7 @@ name = gets.chomp    # removes \n
 
 ````
 
-# if-else
+# if-else, unless
 ```` ruby
 if something
 	do something
@@ -184,7 +188,6 @@ end
 ````
 
 # Case
-
 
 ````ruby
 case language
@@ -332,7 +335,7 @@ numbers[:three]                     # => :tri
 numbers.fetch(:four, :keine_ahnung) # => :keine_ahnung
 ````
 
-## methods
+## Methods
 ````ruby
 numbers = {1 => 2, 3 => 4}
 
@@ -456,10 +459,9 @@ end
 bacon = Bacon.new
 bacon.chunky?      # => "yes, of course!
 ````
-Класове се създават с class
-Можем да дефинираме initialize - нещо като конструктор
+ initialize – sth like a constructor
 Инстанционните променливи се префиксват с @ и се достъпват само отвътре
-Ако искаме да достъпим такава променлива отвън - трябва да го направим чрез метод.Ако извикате #methods на нещо, ще получите масив от символи с имената на методите му.
+Ако искаме да достъпим такава променлива отвън - трябва да го направим чрез метод. Ако извикате #methods на нещо, ще получите масив от символи с имената на методите му.
 
 # Modules
 ````ruby
@@ -487,8 +489,6 @@ module UselessStuff
   end
 end
 ````
-## to include
-Make sure to include the ! so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
 
 ## all and any
 ````ruby
@@ -497,8 +497,8 @@ Make sure to include the ! so that the user's string is modified in-place; other
 [1, 2, 3, false].any?   # => true
 ````
 
-# symbols
-Symbols always start with a colon (:). They must be valid Ruby variable names, so the first character after the colon has to be a letter or underscore (_); after that, any combination of letters, numbers, and underscores is allowed.
+# Symbols
+Symbols always start with a colon (:). They must be valid Ruby variable names, so the first character after the colon has to be a letter or underscore (_); after that, any combination of letters, numbers, and underscores is allowed. <br>
 
 Make sure you don't put any spaces in your symbol name—if you do, Ruby will get confused.
 ````ruby
@@ -570,10 +570,31 @@ We can then pass the proc to a method that would otherwise take a block, and we 
 
 The & is used to convert the cube proc into a block (since .collect! and .map! normally take a block). We'll do this any time we pass a proc to a method that expects a block.
 
-Instructions
-The .floor method rounds a float (a number with a decimal) down to the nearest integer. Write a proc called round_down that will do this rounding (we've added the code to pass it to floats.collect).
-
 ## Why bother saving our blocks as procs? There are two main advantages:
 
 Procs are full-fledged objects, so they have all the powers and abilities of objects. (Blocks do not.)
 Unlike blocks, procs can be called over and over without rewriting them. This prevents you from having to retype the contents of your block every time you need to execute a particular bit of code.
+
+# Content:
+## Comments	
+## Kent Beck's rules of Simple Design:	
+## Constants and vars	
+## Operators and operations	
+## Numbers	
+## Printing	
+## gets	
+## if-else, unless	
+## Loops	
+## Case	
+## Arrays
+## argv	
+## Files	
+## Hashes	
+## Methods	
+## Anonymous functions	
+## Class	
+## Modules	
+## Symbols	
+## Blocks	
+## Procs	
+
