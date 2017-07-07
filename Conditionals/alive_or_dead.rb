@@ -1,9 +1,8 @@
-age = gets.to_i 
+age = gets.to_i
 
-while age<100 do
+while age<100
   puts "You are alive. You are " + age.to_s + " years old"
+  sleep 1
   age += 1
 end
-if age>= 100
-  puts "Oooops, you are dead"
-end
+puts "Oooops, you are dead"
