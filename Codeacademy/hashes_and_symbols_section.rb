@@ -9,7 +9,6 @@ matz = { "First name" => "Yukihiro",
 
 matz.each do |x,y| puts y end
 
-# access one that doesn't exist
 creatures = { "weasels" => 0,
               "puppies" => 6,
               "platypuses" => 3,
@@ -18,7 +17,7 @@ creatures = { "weasels" => 0,
               "Tiggers" => 1
 }
 
-creatures["dsfds"]
+creatures["dsfds"] # doesn;t exist
 
 menagerie = { :foxes => 2,
               :giraffe => 1,
@@ -36,7 +35,7 @@ puts :symbol.object_id
 
 symbol_hash = {
     :one => 1,
-    :two => 2,    # Fill in these two blanks!
+    :two => 2,    
     :three => 3,
 }
 
@@ -49,8 +48,6 @@ symbol_hash = {
 
 strings = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
 
-# Add your code below!
-
 symbols = []
 
 strings.each do |x|
@@ -58,8 +55,6 @@ strings.each do |x|
 end
 
 strings = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
-
-# Add your code below!
 
 symbols = []
 
@@ -87,7 +82,6 @@ movie_ratings = {
   uhf: 1,
   lion_king: 3.5
 }
-# Add your code below!
 
 good_movies = movie_ratings.select{|k,v| v>3}
 
@@ -102,6 +96,5 @@ movie_ratings = {
   uhf: 1,
   lion_king: 3.5
 }
-# Add your code below!
 
 movie_ratings.each_key {|key| puts key}

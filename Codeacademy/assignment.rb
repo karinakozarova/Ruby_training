@@ -1,5 +1,3 @@
-my_num =   25  # Add your code here!
-
-my_boolean = true    # And here!
-
-my_string =  "Ruby"   # Also here.
+my_num =   25  
+my_boolean = true    
+my_string =  "Ruby"  
