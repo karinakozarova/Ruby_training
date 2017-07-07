@@ -297,7 +297,7 @@ end
 ```` ruby
 sleep time
 ````
-where time is a number - seconds
+Stops the execution of the program for a certain number of seconds - time is a number in seconds.
 
 # argv
 
@@ -357,31 +357,30 @@ The second line is preffered after ruby v.1.9
 {:one => 1, :two => 2}
 {one: 1, two: 2}
 ````
-The hash syntax you've seen so far (with the => symbol between keys and values) is sometimes nicknamed the hash rocket style.
-However, the hash syntax has changed in Ruby 1.9. Just when you were getting comfortable!
+The hash syntax you've seen so far (with the => symbol between keys and values) is sometimes nicknamed __the hash rocket style.__ <br>
+However, the hash syntax has changed in Ruby 1.9. The new syntax is easier to type than the old hash rocket syntax:
 
-The good news is that the new syntax is easier to type than the old hash rocket syntax, and if you're used to JavaScript objects or Python dictionaries, it will look very familiar:
 ````ruby
 new_hash = { one: 1,
   two: 2,
-  three: 3
+  three: 3,
 }
 ````
-The two changes are:
-
-You put the colon at the end of the symbol, not at the beginning;
-You don't need the hash rocket anymore.
+#### The two changes are:
+<ul>
+<li>You put the colon at the end of the symbol, not at the beginning; </li>
+<li>You don't need the hash rocket anymore. </li> </ul> <br>
 It's important to note that even though these keys have colons at the end instead of the beginning, they're still symbols!
 
+````ruby
 puts new_hash
 # ==> {:one=>1, :two=>2, :three=>3}
 ## default hash value
-````ruby
 my_hash = Hash.new("Trady Blix")
 ````
 ## .object_id
 The .object_id method gets the ID of an object—it's how Ruby knows whether two objects are the exact same object.
-##
+## .each_key, .each_value
 
 Ruby includes two hash methods, .each_key and .each_value, that do exactly what you'd expect:
 ````ruby
@@ -435,12 +434,11 @@ A name of the method can end in ? if it return true or false. (by convention)
 ### lambda
 Defined with keyword lambda. Almost identical to the normal methods. They are of type proc but with a special flag.
 ````ruby
-	pow = lambda {|a,b| a**b} # definition
-
-	# calling
-	pow.call 2,3
-	pow[2,3]
-	pow.(2,3)
+pow = lambda {|a,b| a**b} # definition
+# calling
+pow.call 2,3
+pow[2,3]
+pow.(2,3)
 ````
 ### proc
 ````ruby
@@ -449,10 +447,12 @@ double.call(2)
 double[2]
 double.(2)
 ````
-
-Biggest diff lambda - proc: In proc -> ArgumentError <br>
-return@ lambda -> return outside the body of the lambda <br>
-return@proc -> returns putside of the body of the method, in whic the proc is called
+#### Differences between lambda and procs:
+<ul>
+<li> In proc -> ArgumentError <br> </li>
+<li> return@ lambda -> return outside the body of the lambda <br> </li>
+<li>return@proc -> returns putside of the body of the method, in whic the proc is called </li>
+</ul>
 
 # Class
 ````ruby
