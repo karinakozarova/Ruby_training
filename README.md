@@ -39,13 +39,19 @@ $variable = 1  # global
 ````
 
 # Operators and operations
+## = vs ==
 == is greater than =	<br>
+== -> checks if true
+= -> assigns value
+
+## dots
 ... operator includes a range's first num and excludes the last
 .. operator includes both the first and the last num in the range
 <blockquote>
 PEMDAS =  Parentheses Exponents Multiplication Division Addition Subtraction
 </blockquote>
 
+## conditional assignment operator
 But what if we only want to assign a variable if it hasn't already been assigned? For this, we can use the conditional assignment operator: ||=.
 
 ## ternary
@@ -57,8 +63,8 @@ boolean ? Do this if true: Do this if false
 ## combined comparison operator
 The combined comparison operator looks like this: <=>. It returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second
 
-## other 
-Make sure to include the ! so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
+##  note 
+Make sure to include the ! whe using some methods so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
 
 
 # Numbers
@@ -96,7 +102,7 @@ puts date.split(".") # puts num on new line
 
 ## print
 ```` ruby
-	print "Info" # same as puts, no new line entered
+print "Info" # same as puts, no new line entered
 ````
 # gets
 
@@ -128,7 +134,7 @@ else
 end
 ````
 
-```` ruby
+````ruby
 puts "num is not 5" unless num == 5
 puts "num is 5" if num == 5
 ````
@@ -136,7 +142,7 @@ puts "num is 5" if num == 5
 # Loops
 
 ## While
-Do is optional,always include it if one line loop. <br>
+Do is optional, always include it if the loop is in one line loop. <br>
 ### Normal while:
 ```` ruby
 while count_while <= 100 do
@@ -220,8 +226,8 @@ end
 
 # Arrays
 
-Saves references, not the elements <br>
-__Size is dynamic.__ <br>
+Saves references, not the elements. <br>
+__The size of the array is dynamic.__ <br>
 
 ```` ruby
 array_families = ["KK","AA","SD"]
