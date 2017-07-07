@@ -466,8 +466,7 @@ bacon = Bacon.new
 bacon.chunky?      # => "yes, of course!
 ````
  initialize – sth like a constructor
-Инстанционните променливи се префиксват с @ и се достъпват само отвътре
-Ако искаме да достъпим такава променлива отвън - трябва да го направим чрез метод. Ако извикате #methods на нещо, ще получите масив от символи с имената на методите му.
+Instance variables are prefixed with @.If we call #methods,we will receive an array with symbols with the names of the methods.
 
 # Modules
 ````ruby
