@@ -657,7 +657,31 @@ Some modules, like Math, are already present in the interpreter. Others need to 
 ````ruby
 require 'module'
 ````
+## include
 
+We can do more than just require a module, however. We can also include it!
+
+Any class that includes a certain module can use those module's methods!
+
+A nice effect of this is that you no longer have to prepend your constants and methods with the module name. Since everything has been pulled in, you can simply write PI instead of Math::PI.
+
+````ruby
+class Angle
+  include Math
+  attr_accessor :radians
+
+  def initialize(radians)
+    @radians = radians
+  end
+
+  def cosine
+    cos(@radians)
+  end
+end
+
+acute = Angle.new(1)
+acute.cosine
+````
 ## all and any
 ````ruby
 [1, 2, 3, nil].all?     # => false
