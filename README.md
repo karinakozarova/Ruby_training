@@ -573,6 +573,30 @@ class DerivedClass < BaseClass
 end
 ````
 where the derived class is the new class you're making and the base class is the class from which that new class inherits. You can read "<" as "inherits from."
+
+### Override!
+Sometimes you'll want one class that inherits from another to not only take on the methods and attributes of its parent, but to override one or more of them.
+
+For instance, you might have an Email class that inherits from Message. Both classes might have a send method that sends them, but the e-mail version may have to identify valid e-mail addresses and use a bunch of e-mail protocols that Message knows nothing about. Rather than add a send_email method to your derived class and inherit a send method you'll never use, you can instead just explicitly create a send method in the Email class and have it do all the email-sending work.
+
+This new version of send will override (that is, replace) the inherited version for any object that is an instance of Email.
+
+## super
+
+On the flip side, sometimes you'll be working with a derived class (or subclass) and realize that you've overwritten a method or attribute defined in that class' base class (also called a parent or superclass) that you actually need. Have no fear! You can directly access the attributes or methods of a superclass with Ruby's built-in super keyword.
+
+The syntax looks like this:
+````ruby
+class DerivedClass < Base
+  def some_method
+    super(optional args)
+      # Some stuff
+    end
+  end
+end
+````
+
+When you call super from inside a method, that tells Ruby to look in the superclass of the current class and find a method with the same name as the one from which super is called. If it finds it, Ruby will use the superclass' version of the method.
 # Modules
 ````ruby
 module UselessStuff
