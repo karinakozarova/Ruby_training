@@ -117,6 +117,12 @@ boolean ? Do this if true: Do this if false
 ## combined comparison operator
 The combined comparison operator looks like this: <=>. It returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second
 
+# ::
+Math::PI and Circle::PI.
+
+See that double colon we just used? That's called the scope resolution operator, which is a fancy way of saying it tells Ruby where you're looking for a specific bit of code. If we say Math::PI, Ruby knows to look inside the Math module to get that PI, not any other PI (such as the one we created in Circle).
+
+
 ##  note
 Make sure to include the ! whe using some methods so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
 
@@ -638,6 +644,19 @@ It doesn't make sense to include variables in modules, since variables (by defin
 Ruby doesn't make you keep the same value for a constant once it's initialized, but it will warn you if you try to change it. Ruby constants are written in ALL_CAPS and are separated with underscores if there's more than one word.
 
 An example of a Ruby constant is PI, which lives in the Math module and is approximately equal to 3.141592653589793.
+
+## namespacing
+One of the main purposes of modules is to separate methods and constants into named spaces. This is called (conveniently enough) namespacing, and it's how Ruby doesn't confuse Math::PI and Circle::PI.
+
+See that double colon we just used? That's called the scope resolution operator, which is a fancy way of saying it tells Ruby where you're looking for a specific bit of code. If we say Math::PI, Ruby knows to look inside the Math module to get that PI, not any other PI (such as the one we created in Circle).
+
+## require
+
+Some modules, like Math, are already present in the interpreter. Others need to be explicitly brought in, however, and we can do this using require. We can do this simply by typing
+
+````ruby
+require 'module'
+````
 
 ## all and any
 ````ruby
