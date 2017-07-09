@@ -59,10 +59,10 @@ comment
 
 # Kent Beck's rules of Simple Design:
 <ul>
-<li>The code must first be correct (as defined by tests); </li> <br>
-<li>then it should be a clear statement of the design (what J.B.Rainsberger calls "no bad names"); </li> <br>
-<li>then it should contain no duplication (of text, of ideas, or of responsibility);</li> <br>
-<li>and finally it must be the smallest code that meets all of the above.</li> <br>
+<li>The code must first be correct (as defined by tests); </li> 
+<li>then it should be a clear statement of the design (what J.B.Rainsberger calls "no bad names"); </li> 
+<li>then it should contain no duplication (of text, of ideas, or of responsibility);</li> 
+<li>and finally it must be the smallest code that meets all of the above.</li> 
 <br>
 It's time to stop refactoring when the code makes a reasonable stab at meeting those goals, and when any further changes would add no further benefit.
 </li>
