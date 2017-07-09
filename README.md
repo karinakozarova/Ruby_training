@@ -1,3 +1,46 @@
+# Content:
+## History of Ruby
+## Comments
+## Kent Beck's rules of Simple Design:
+## Constants and vars
+## Operators and operations
+## Numbers
+## Printing
+## gets
+## if-else, unless
+## Loops
+## Case
+## Arrays
+## argv
+## Files
+## Hashes
+## Methods
+## Anonymous functions
+## Class
+## Modules
+## Symbols
+## Blocks
+## Procs
+
+
+# History of Ruby
+
+Ruby was born in 1993, conceieved in a discussion between Yukihiro Matsumoto (“Matz”) and a colleague. They were discussing the possibility of an object-oriented scripting-language. Matz stated in ruby-talk:00382 that he knew Perl, but did not like it very much; that it had the smell of a “toy” language. He also discussed that he knew Python, but didn’t like it because it wasn’t a true object-oriented programming language. <br>
+
+Matz wanted a language perfect for his needs: <br>
+<ul>
+<li> Syntactically Simple  </li>
+<li> Having Iterators and Closures </li>
+<li> Exception Handling </li>
+<li> Garbage Collection </li>
+<li> Portable </li>
+</ul> <br>
+Having looked around and not found a language suited for him, Yukihiro Matsumoto decided to create his own. After spending several months writing an interpreter, Matz finally published the first public version of Ruby (0.95) to various Japanese domestic newsgroups in December, 1995. <br>
+
+## Ruby overview
+Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. <br>
+
+According to its creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp.It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management. <br>
 # Comments
 ```` ruby
 # one line comment
@@ -63,7 +106,7 @@ boolean ? Do this if true: Do this if false
 ## combined comparison operator
 The combined comparison operator looks like this: <=>. It returns 0 if the first operand (item to be compared) equals the second, 1 if first operand is greater than the second, and -1 if the first operand is less than the second
 
-##  note 
+##  note
 Make sure to include the ! whe using some methods so that the user's string is modified in-place; otherwise, Ruby will create a copy of user_input.downcase and modify that instead.
 
 
@@ -580,26 +623,5 @@ The & is used to convert the cube proc into a block (since .collect! and .map! n
 Procs are full-fledged objects, so they have all the powers and abilities of objects. (Blocks do not.)
 Unlike blocks, procs can be called over and over without rewriting them. This prevents you from having to retype the contents of your block every time you need to execute a particular bit of code.
 
-# Content:
-## Comments	
-## Kent Beck's rules of Simple Design:	
-## Constants and vars	
-## Operators and operations	
-## Numbers	
-## Printing	
-## gets	
-## if-else, unless	
-## Loops	
-## Case	
-## Arrays
-## argv	
-## Files	
-## Hashes	
-## Methods	
-## Anonymous functions	
-## Class	
-## Modules	
-## Symbols	
-## Blocks	
-## Procs	
+
 
