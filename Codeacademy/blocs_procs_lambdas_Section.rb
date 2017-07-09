@@ -111,3 +111,27 @@ symbolize = lambda { |x| x.to_sym }
 symbols = strings.collect(&symbolize)
 
 ################################################################
+
+def batman_ironman_proc
+  victor = Proc.new { return "Batman will win!" }
+  victor.call
+  "Iron Man will win!"
+end
+
+puts batman_ironman_proc
+
+def batman_ironman_lambda
+  victor = lambda { return "Batman will win!" }
+  victor.call
+  "Iron Man will win!"
+end
+
+puts batman_ironman_lambda
+
+################################################################
+
+my_array = ["raindrops", :kettles, "whiskers", :mittens, :packages]
+symbol_filter = lambda { |x| x.capitalize.is_a? Symbol}
+symbols = my_array.select(&symbol_filter)
+
+##########################################################
