@@ -597,7 +597,19 @@ end
 ````
 
 When you call super from inside a method, that tells Ruby to look in the superclass of the current class and find a method with the same name as the one from which super is called. If it finds it, Ruby will use the superclass' version of the method.
+
+## multiple inheritance
+
+Any given Ruby class can have only one superclass. Some languages allow a class to have more than one parent, which is a model called multiple inheritance. This can get really ugly really fast, which is why Ruby disallows it.
+
+However, there are instances where you want to incorporate data or behavior from several classes into a single class, and Ruby allows this through the use of mixins. We'll learn about mixins in a later lesson! For now, we'll demonstrate what happens if you try to do multiple inheritance in Ruby.
+
 # Modules
+
+You can think of a module as a toolbox that contains a set methods and constants. There are lots and lots of Ruby tools you might want to use, but it would clutter the interpreter to keep them around all the time. For that reason, we keep a bunch of them in modules and only pull in those module toolboxes when we need the constants and methods inside!
+
+You can think of modules as being very much like classes, only modules can't create instances and can't have subclasses. They're just used to store things!
+
 ````ruby
 module UselessStuff
   def almost_pi
@@ -611,18 +623,21 @@ end
 
 Something.new.almost_pi # => 3.1415
 ````
-Модулите в Ruby просто съдържат методи. Дефинират се подобно на класове:
-````ruby
-module UselessStuff
-  def almost_pi
-    3.1415
-  end
 
-  def almost_e
-    2.71
-  end
+You can pull in pre-existing modules, but you can also make your own. Modules are super easy to make! You just use the module keyword, like so:
+````ruby
+module ModuleName
+  # Bits 'n pieces
 end
 ````
+
+Like class names, module names are written in <b>CapitalizedCamelCase </b>, rather than lowercasewithunderscores.
+
+It doesn't make sense to include variables in modules, since variables (by definition) change (or vary). Constants, however, are supposed to always stay the same, so including helpful constants in modules is a great idea.
+
+Ruby doesn't make you keep the same value for a constant once it's initialized, but it will warn you if you try to change it. Ruby constants are written in ALL_CAPS and are separated with underscores if there's more than one word.
+
+An example of a Ruby constant is PI, which lives in the Math module and is approximately equal to 3.141592653589793.
 
 ## all and any
 ````ruby
