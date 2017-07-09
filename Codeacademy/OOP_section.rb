@@ -101,3 +101,50 @@ dhh = Person.new("David")
 puts "Number of Person instances: #{Person.number_of_instances}"
 
 #############################################################
+
+def create_record(attributes, raise_error = false)
+  record = build_record(attributes)
+  yield(record) if block_given?
+  saved = record.save
+  set_new_record(record)
+  raise RecordInvalid.new(record) if !saved && raise_error
+  record
+end
+
+#############################################################
+
+class ApplicationError
+  def display_error
+    puts "Error! Error!"
+  end
+end
+
+class SuperBadError < ApplicationError
+end
+
+err = SuperBadError.new
+err.display_error
+
+#############################################################
+
+class Application
+  def initialize(name)
+    @name = name
+  end
+end
+
+# inherintance
+class MyApp < Application
+
+end
+
+#############################################################
+
+
+#############################################################
+
+
+#############################################################
+
+
+#############################################################
