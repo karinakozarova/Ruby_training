@@ -16,4 +16,12 @@ class Account
     def pin_error
         "Access denied: incorrect PIN."
     end
+
+    public
+    def display_balance(pin_number)
+        if pin_number == Account.pin
+        puts "Balance: $#{@balance}."
+        else puts pin_error
+        end
+    end
 end
