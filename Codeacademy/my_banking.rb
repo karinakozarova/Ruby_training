@@ -34,3 +34,5 @@ class Account
         end
     end
 end
+
+checking_account = Account.new("Kari",1000000000000)
