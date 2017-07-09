@@ -1,10 +1,12 @@
 5.times { puts "I'm a block!"}
 
-##############
+###############################################################
+
 fibs = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55]
 doubled_fibs = fibs.collect {|num| num *= 2}
 
-###############
+###############################################################
+
 def block_test
   puts "We're in the method!"
   puts "Yielding to the block..."
@@ -13,7 +15,8 @@ def block_test
 end
 block_test { puts ">>> We're in the block!" }
 
-#################
+###############################################################
+
 def yield_name(name)
   puts "In the method! Let's yield."
   yield("Kim")
@@ -25,14 +28,17 @@ end
 yield_name("Eric") { |n| puts "My name is #{n}." }
 yield_name("Kari") { |n| puts "My name is #{n}." }
 
-#################
+###############################################################
+
+
 def double (var)
    yield var
 end
 
 double (5) {|x| puts x*2}
 
-############
+###############################################################
+
 # procs starting
 multiples_of_3 = Proc.new do |n|
   n % 3 == 0
@@ -40,12 +46,13 @@ end
 
 (1..100).to_a.select(&multiples_of_3)
 
-##############
+###############################################################
+
 floats = [1.2, 3.45, 0.91, 7.727, 11.42, 482.911]
 round_down = Proc.new{|x| x.floor}
 ints = floats.collect(&round_down)
 
-###############################################################3
+###############################################################
 
 # Here at the amusement park, you have to be four feet tall
 # or taller to ride the roller coaster. Let's use .select on
@@ -60,3 +67,47 @@ over_4_feet = Proc.new{}
 can_ride_1 = group_1.select { |height| height >= 4 }
 can_ride_2 = group_2.select { |height| height >= 4 }
 can_ride_3 = group_3.select { |height| height >= 4 }
+
+################################################################
+
+def greeter
+   yield
+end
+
+phrase = Proc.new  do
+    puts "Hello there!"
+end
+
+greeter(&phrase)
+
+################################################################
+
+hi = Proc.new do
+    puts "Hello!"
+end
+
+hi.call
+
+################################################################
+
+# Nums to strings
+numbers_array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+strings_array = numbers_array.map(&:to_s)
+
+################################################################
+
+def lambda_demo(a_lambda)
+  puts "I'm the method!"
+  a_lambda.call
+end
+
+lambda_demo(lambda { puts "I'm the lambda!" })
+
+################################################################
+
+# str to symbols
+strings = ["leonardo", "donatello", "raphael", "michaelangelo"]
+symbolize = lambda { |x| x.to_sym }
+symbols = strings.collect(&symbolize)
+
+################################################################
