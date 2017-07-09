@@ -1,27 +1,28 @@
-# Content:
-## History of Ruby
-## Comments
-## Kent Beck's rules of Simple Design:
-## Constants and vars
-## Operators and operations
-## Numbers
-## Printing
-## gets
-## if-else, unless
-## Loops
-## Case
-## Arrays
-## argv
-## Files
-## Hashes
-## Methods
-## Anonymous functions
-## Class
-## Modules
-## Symbols
-## Blocks
-## Procs
-
+ # Content:
+ <ul>
+<li> History of Ruby</li>
+<li> Comments</li>
+<li> Kent Beck's rules of Simple Design: </li>
+<li> Constants and vars </li>
+<li> Operators and operations </li>
+<li> Numbers</li>
+<li> Printing</li>
+<li> gets</li>
+<li> if-else, unless</li>
+<li> Loops</li>
+<li> Case</li>
+<li> Arrays</li>
+<li> argv</li>
+<li> Files</li>
+<li> Hashes</li>
+<li> Methods</li>
+<li> Anonymous functions</li>
+<li> Class</li>
+<li> Modules</li>
+<li> Symbols</li>
+<li> Blocks</li>
+<li> Procs</li>
+</ul>
 
 # History of Ruby
 
