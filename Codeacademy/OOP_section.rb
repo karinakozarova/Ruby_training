@@ -140,11 +140,60 @@ end
 
 #############################################################
 
+=begin Create a new class, Dragon, that inherits from Creature. Give your derived class a fight method that overrides Creature's; instead of returning "Punch to the chops!", it should return "Breathes fire!".
+=end
+
+class Creature
+  def initialize(name)
+    @name = name
+  end
+
+  def fight
+    return "Punch to the chops!"
+  end
+end
+
+class Dragon < Creature
+    def fight
+        "Breathes fire!"
+    end
+end
 
 #############################################################
 
+class Creature
+  def initialize(name)
+    @name = name
+  end
+
+  def fight
+    return "Punch to the chops!"
+  end
+end
+
+# Add your code below!
+class Dragon < Creature
+    def fight
+        puts "Instead of breathing fire..."
+        super
+    end
+end
 
 #############################################################
 
+class Creature
+  def initialize(name)
+    @name = name
+  end
+end
+
+class Person
+  def initialize(name)
+    @name = name
+  end
+end
+
+class Dragon < Creature; end
+class Dragon < Person; end
 
 #############################################################
