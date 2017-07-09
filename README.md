@@ -1,27 +1,28 @@
-# Content:
-## History of Ruby
-## Comments
-## Kent Beck's rules of Simple Design:
-## Constants and vars
-## Operators and operations
-## Numbers
-## Printing
-## gets
-## if-else, unless
-## Loops
-## Case
-## Arrays
-## argv
-## Files
-## Hashes
-## Methods
-## Anonymous functions
-## Class
-## Modules
-## Symbols
-## Blocks
-## Procs
-
+ # Content:
+ <ul>
+<li> History of Ruby</li>
+<li> Comments</li>
+<li> Kent Beck's rules of Simple Design: </li>
+<li> Constants and vars </li>
+<li> Operators and operations </li>
+<li> Numbers</li>
+<li> Printing</li>
+<li> gets</li>
+<li> if-else, unless</li>
+<li> Loops</li>
+<li> Case</li>
+<li> Arrays</li>
+<li> argv</li>
+<li> Files</li>
+<li> Hashes</li>
+<li> Methods</li>
+<li> Anonymous functions</li>
+<li> Class</li>
+<li> Modules</li>
+<li> Symbols</li>
+<li> Blocks</li>
+<li> Procs</li>
+</ul>
 
 # History of Ruby
 
@@ -58,10 +59,10 @@ comment
 
 # Kent Beck's rules of Simple Design:
 <ul>
-<li>The code must first be correct (as defined by tests); </li> <br>
-<li>then it should be a clear statement of the design (what J.B.Rainsberger calls "no bad names"); </li> <br>
-<li>then it should contain no duplication (of text, of ideas, or of responsibility);</li> <br>
-<li>and finally it must be the smallest code that meets all of the above.</li> <br>
+<li>The code must first be correct (as defined by tests); </li> 
+<li>then it should be a clear statement of the design (what J.B.Rainsberger calls "no bad names"); </li> 
+<li>then it should contain no duplication (of text, of ideas, or of responsibility);</li> 
+<li>and finally it must be the smallest code that meets all of the above.</li> 
 <br>
 It's time to stop refactoring when the code makes a reasonable stab at meeting those goals, and when any further changes would add no further benefit.
 </li>
@@ -817,14 +818,15 @@ end
 (1..100).to_a.select(&multiples_of_3)
 ````
 Procs are easy to define! You just call Proc.new and pass in the block you want to save. Here's how we'd create a proc called cube that cubes a number (raises it to the third power):
-
+````ruby
 cube = Proc.new { |x| x ** 3 }
-We can then pass the proc to a method that would otherwise take a block, and we don't have to rewrite the block over and over!
+# We can then pass the proc to a method that would otherwise take a block, and we don't have to rewrite the block over and over!
 
 [1, 2, 3].collect!(&cube)
 # ==> [1, 8, 27]
 [4, 5, 6].map!(&cube)
 # ==> [64, 125, 216]
+```` 
 (The .collect! and .map! methods do the exact same thing.)
 
 The & is used to convert the cube proc into a block (since .collect! and .map! normally take a block). We'll do this any time we pass a proc to a method that expects a block.
