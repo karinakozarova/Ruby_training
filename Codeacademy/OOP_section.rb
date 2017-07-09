@@ -221,8 +221,8 @@ end
 
 class Email < Message
 
-    def initialize(subject)
-        @subject = subject
+    def initialize(from,to)
+        super
     end
 end
 my_message = Message.new("Kari", "You")
