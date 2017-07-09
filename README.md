@@ -41,6 +41,8 @@ Having looked around and not found a language suited for him, Yukihiro Matsumoto
 Ruby is a dynamic, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan. <br>
 
 According to its creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp.It supports multiple programming paradigms, including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management. <br>
+
+
 # Comments
 ```` ruby
 # one line comment
@@ -74,6 +76,15 @@ Vars must start with lowercase, consts must be named with an uppercase and can't
 Global vars should start with $. __Globals are bad.__ <br>
 Instance variables are preceded by a @.<br>
 Class variables are preceded by @@.<br>
+
+<blockquote>
+Recall that instance variables begin with an @. This isn't just a Ruby convention—it's part of the syntax! Always start your instance variables with @.
+
+Class variables are like instance variables, but instead of belonging to an instance of a class, they belong to the class itself. Class variables always start with two @s, like so: @@files.
+
+Global variables can be declared in two ways. The first is one that's already familiar to you: you just define the variable outside of any method or class, and voilà! It's global. If you want to make a variable global from inside a method or class, just start it with a $, like so: $matz.
+
+</blockquote>
 
 ````ruby
 variable = 1   # local
@@ -498,6 +509,17 @@ double.(2)
 </ul>
 
 # Class
+A class is just a way of organizing and producing objects with similar attributes and methods. <br>
+
+A basic class consists only of the class keyword and the name of the class.
+<br>
+Check it out:
+````ruby
+class NewClass
+  # Class magic here
+end
+````
+
 ````ruby
 class Bacon
   def chunky?
@@ -508,9 +530,49 @@ end
 bacon = Bacon.new
 bacon.chunky?      # => "yes, of course!
 ````
- initialize – sth like a constructor
+## initialize
 Instance variables are prefixed with @.If we call #methods,we will receive an array with symbols with the names of the methods.
 
+You can think of initialize as the function that "boots up" each object the class creates.
+
+````ruby
+class Person
+    def initialize
+
+    end
+
+end
+````
+
+````ruby
+class Car
+  def initialize(make, model)
+    @make = make
+    @model = model
+  end
+end
+
+kitt = Car.new("Pontiac", "Trans Am")
+````
+
+## .new
+We can create an instance of a class just by calling .new on the class name, like so:
+````ruby
+me = Person.new("Eric")
+````
+
+## Inheritance
+
+Inheritance is the process by which one class takes on the attributes and methods of another, and it's used to express an is-a relationship. For example, a cartoon fox is a cartoon mammal, so a CartoonFox class could inherit from a CartoonMammal class. However, a Wizard is not an Elf , so it shouldn't inherit from the Elf class (even if they have a lot of magical attributes and methods in common). Instead, both Wizard and Elf could ultimately inherit from the same MagicalBeing class.
+
+
+In Ruby, inheritance works like this:
+````ruby
+class DerivedClass < BaseClass
+  # Some stuff!
+end
+````
+where the derived class is the new class you're making and the base class is the class from which that new class inherits. You can read "<" as "inherits from."
 # Modules
 ````ruby
 module UselessStuff
