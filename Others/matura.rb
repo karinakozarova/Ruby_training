@@ -6,37 +6,7 @@
   Идеи за развитие: след автора да може да се избере произведение
   и да се видят главните герои и жанра
 =end
-def random (a = 0,b = 7)
-num = Random.new
-num.rand(a..b)
-end
 
-def author_to_bg (author)
-# дешифрова променливата в името на български на автора
-  case author
-  when "akonstantinov" then puts "Алеко Константинов"
-  when "ddebelqnov" then puts "Димчо Дебелянов"
-  when "epelin" then puts "Елин Пелин"
-  when "ivazov" then puts "Иван Вазов"
-  when "piavorov" then puts "Пейо Яворов"
-  when "pslaveikov" then puts "Пенчо Славейков"
-  when "hbotev" then puts "Христо Ботев"
-  end
-end
-def random_author
-    #get random number 1-7
-    author_num = random
-    case author_num
-    when 1 then author = "akonstantinov"
-    when 2 then author = "ddebelqnov"
-    when 3 then author = "epelin"
-    when 4 then author = "ivazov"
-    when 5 then author = "piavorov"
-    when 6 then author = "pslaveikov"
-    when 7 then author = "hbotev"
-    end
-    author
-end
 hbotev = [
   "Майце си",
   "Към брата си",
@@ -111,44 +81,88 @@ ddebelqnov = [
   "Сиротна песен",
 ]
 
+def random (a = 0,b = 7)
+num = Random.new
+num.rand(a..b)
+end
+
+def author_to_bg (author)
+# дешифрова променливата в името на български на автора
+  case author
+  when "akonstantinov" then puts "Алеко Константинов"
+  when "ddebelqnov" then puts "Димчо Дебелянов"
+  when "epelin" then puts "Елин Пелин"
+  when "ivazov" then puts "Иван Вазов"
+  when "piavorov" then puts "Пейо Яворов"
+  when "pslaveikov" then puts "Пенчо Славейков"
+  when "hbotev" then puts "Христо Ботев"
+  end
+end
+def random_author
+    #get random number 1-7
+    author_num = random
+    case author_num
+    when 1 then author = "akonstantinov"
+    when 2 then author = "ddebelqnov"
+    when 3 then author = "epelin"
+    when 4 then author = "ivazov"
+    when 5 then author = "piavorov"
+    when 6 then author = "pslaveikov"
+    when 7 then author = "hbotev"
+    end
+    author
+end
+
 # изписват се произведенията на рандъм автор
-print "Ще се изпишат произведения на автор имате 10 секунди да познаете кой е и след това ще се изпишпе на екрана верния отговор.\n"
-author = random_author
-case author
-when "akonstantinov" then puts akonstantinov
-when "ddebelqnov" then puts ddebelqnov
-when "epelin" then puts epelin
-when "ivazov" then puts ivazov
-when "piavorov" then puts piavorov
-when "pslaveikov" then puts pslaveikov
-when "hbotev" then puts hbotev
-end
-sleep(4)
-puts "\nПравилният отговор е:"
-puts author_to_bg(author)
+while true # infinite loop
+  print "Ще се изпишат произведения на автор имате 6 секунди да познаете кой е и след това ще се изпишпе на екрана верния отговор.\n"
+  print "Ако решите да избирате автор и да виждате произведенията му,натинсете 1.Ако искате да продължите натиснете които и да е бутон."
+  input = gets.chomp.to_i
+  break if input == 1
+  author = random_author
+  case author
+  when "akonstantinov" then puts akonstantinov
+  when "ddebelqnov" then puts ddebelqnov
+  when "epelin" then puts epelin
+  when "ivazov" then puts ivazov
+  when "piavorov" then puts piavorov
+  when "pslaveikov" then puts pslaveikov
+  when "hbotev" then puts hbotev
+  else puts "Error"
+  end
 
-sleep(2)
-
-print "Авторите са: \n"
-puts "1.Алеко Константинов"
-puts "2.Димчо Дебелянов"
-puts "3.Елин Пелин"
-puts "4.Иван Вазов"
-puts "5.Пейо Яворов"
-puts "6.Пенчо Славейков"
-puts "7.Христо Ботев"
-print "Натиснете номера на автора,чиитo произведения искате да видите: "
-
-author_num = gets.chomp.to_i
-case author_num
-when 1 then puts akonstantinov
-when 2 then puts ddebelqnov
-when 3 then puts epelin
-when 4 then puts ivazov
-when 5 then puts piavorov
-when 6 then puts pslaveikov
-when 7 then puts hbotev
+  sleep(6)
+  puts "\nПравилният отговор е:"
+  puts author_to_bg(author)
+  sleep(2)
 end
 
+# пита за автор и принтира произведенията му
+while true #infinte loop
+    print "Авторите са: \n"
+    puts "1.Алеко Константинов"
+    puts "2.Димчо Дебелянов"
+    puts "3.Елин Пелин"
+    puts "4.Иван Вазов"
+    puts "5.Пейо Яворов"
+    puts "6.Пенчо Славейков"
+    puts "7.Христо Ботев"
+    print "Натиснете номера на автора,чиитo произведения искате да видите или 0 ако искате да излезете от програмата: "
 
+    author_num = gets.chomp.to_i
+    sleep(1)
 
+    case author_num
+    when 1 then puts akonstantinov
+    when 2 then puts ddebelqnov
+    when 3 then puts epelin
+    when 4 then puts ivazov
+    when 5 then puts piavorov
+    when 6 then puts pslaveikov
+    when 7 then puts hbotev
+    when 0 then break
+    end
+    sleep(3)
+end
+
+puts "Край на програмата."
