@@ -1,592 +1,252 @@
-[33mcommit 5209a325f430cc8a49beec24ac688d00c8cbcfe1[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 17:12:10 2017 +0300
-
-    commit new files
-
-[33mcommit 8b273d6298ecd4a8caa83f5c719dee273f21c207[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 14:30:52 2017 +0300
-
-    upd
-
-[33mcommit 307f1fa29816792380772866d069dfc72025d1a8[m
-Merge: e508c5e 99f6ffa
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 14:27:18 2017 +0300
-
-    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-
-[33mcommit e508c5e60570b9dfd4b7590465c41fd09b5697e1[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 14:27:03 2017 +0300
-
-    removed code mistakes
-
-[33mcommit 1fd67c20cc519c409524626676dcfb8c60682d97[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 13:35:16 2017 +0300
-
-    Hash methods
-
-[33mcommit 95b5f6ba54d0aa073590c9385416b3132de8b835[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 13:26:09 2017 +0300
-
-    updated
-
-[33mcommit 99f6ffa06559ca3906e69c1f86e46b99b51e45e6[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 12:50:22 2017 +0300
-
-    Delete first_last_digit_num.rb
-
-[33mcommit 32187414a1ee236a65ce8b70b8d63b87921562af[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 12:31:50 2017 +0300
-
-    more examples
-
-[33mcommit 5b2b8a4218306765e23dd8a28f9eb4aa54447912[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 12:18:53 2017 +0300
-
-    array exercises
-
-[33mcommit 0f80de067d48572c556e93f4eb72fba8dadef6d5[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 12:14:24 2017 +0300
-
-    array exercise
-
-[33mcommit e73cd7e57cd75f0a583eb8b870a9d93c46b7e3f4[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 12:06:22 2017 +0300
-
-    docc
-
-[33mcommit 1309de0e922cea2d3e064428fd2a4ba858557212[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 12:04:27 2017 +0300
-
-    documentation
-
-[33mcommit 0d3ed18142258f4a9311783c02780f03adf1a461[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 12:03:34 2017 +0300
-
-    documentation
-
-[33mcommit 83c68f04f4b7a7e117f1992d1a675e53aaed8268[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:57:10 2017 +0300
-
-    More docs updated
-
-[33mcommit af88e848b91db2ea7fe278034c1618e409385c56[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:54:49 2017 +0300
-
-    fixed closing tag problem
-
-[33mcommit 4448e5ff0e13fc0c6dfea30ab5a17b88805c9dd0[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:54:26 2017 +0300
-
-    Updated variables section
-
-[33mcommit ec39b8daa7ddebf3e0a6277ea38d649f4e53ae81[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:52:13 2017 +0300
-
-    updated documentation
-
-[33mcommit 91b9113f6d6567e4ea4658b0e26def4f98afe5b4[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:49:05 2017 +0300
-
-    Docs update
-
-[33mcommit 3868fd09b3313e07ccc47300c8010f9d80d38e39[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:43:17 2017 +0300
-
-    All exercises into one file with deifferent (and better) realizaton
-
-[33mcommit 41783c6d9f7a66753778bbd87a18611f1da9814e[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:23:33 2017 +0300
-
-    boiling_point_of_substance('water', 'C') #=> 100
-
-[33mcommit 333d6b5cec15d66ac22b051e1c537cdf835150d7[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:17:22 2017 +0300
-
-    Added melting point
-
-[33mcommit 7204fc79b419419ca6fcd70e145f81193d4ead0a[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 11:06:28 2017 +0300
-
-    temperature conversion
-
-[33mcommit 468e9b9c0cef31415a5e2ac7e58b4f7916c8a53e[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 10:50:28 2017 +0300
-
-    FGibonacci
-
-[33mcommit 4e81546231400fbfc5575eb82a958dc2b06903ce[m
-Merge: 485d001 273f5b7
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 10:12:00 2017 +0300
-
-    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-
-[33mcommit 485d0012b4d77fe28d643947e832c9b112dd7911[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 10:11:45 2017 +0300
-
-    update
-
-[33mcommit 273f5b7430d22288facfa24a2b4155107af42887[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Mon Jul 3 00:30:14 2017 +0300
-
-    Create print_two_argv.rb
-
-[33mcommit ce57b447c89b3ecaa6cc4217f884a4aafa5181f2[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 22:03:37 2017 +0300
-
-    love ruby
-
-[33mcommit 76f05ad3dcff90bd09140ef4ae24616ea111e70a[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 20:40:06 2017 +0300
-
-    first and last digit
-
-[33mcommit e26549650d5b794af671b7a12f49d7ce774129df[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 20:27:28 2017 +0300
-
-    little ascii
-
-[33mcommit 474f1ba9b97b87d231c2b00df281c71896ef47ef[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 20:16:58 2017 +0300
-
-    each loop
-
-[33mcommit 16e76cabd06669b183b94669737dacee5f94b300[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 19:44:45 2017 +0300
-
-    Delete my_documentation.md
-
-[33mcommit 5430ac900ec5736f2b7abb0e29092de0fbacef86[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 19:44:25 2017 +0300
-
-    Move docs
-
-[33mcommit 9d9eaba28551b4376cdc0677cce1c2b4cc6728fd[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 19:44:15 2017 +0300
-
-    Move docs
-
-[33mcommit 41b148be75ac87d956267cc4ede5c40ed323cea3[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 19:42:36 2017 +0300
-
-    Modified documentation
-
-[33mcommit f0724508f2c76a0859264cdaee333ddceb054a78[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 19:40:49 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit 377332caea521af95a960d4e1366e9e576bec71f[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 19:37:23 2017 +0300
-
-    For loop
-
-[33mcommit 30c874a68a83651c33ffd61ef9c80264f69ae9e3[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 19:17:39 2017 +0300
-
-    begin..until
-
-[33mcommit 5b97cec02f45ae82d71cb1c13e4df176af812fc7[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 18:18:52 2017 +0300
-
-    file fix
-
-[33mcommit 5e1555a807d842e4effe4483b749dc1b15791695[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 18:10:41 2017 +0300
-
-    more file training
-
-[33mcommit 3f2304400a8267bc0a0bf7591a741ce1d9318de3[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 13:27:39 2017 +0300
-
-    added quadratic calculator
-
-[33mcommit 060e6455b1031e819f873578c7f699a6b5bb83b2[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 13:03:31 2017 +0300
-
-    fixed docs
-
-[33mcommit 6c8106d681f7daf8fe25b8688e5de05d027992dd[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 13:01:25 2017 +0300
-
-    Read line
-
-[33mcommit 1287469efbd6110030a288f4b212922903aa0154[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 12:59:00 2017 +0300
-
-    writing files
-
-[33mcommit 95402f2f01cdc0240f797328b44441260aa08020[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 12:56:08 2017 +0300
-
-    docs
-
-[33mcommit 8a7f3efa1e55d65e76c064a57e485a4ba98a7961[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 12:34:09 2017 +0300
-
-    added close to docs
-
-[33mcommit c8f9009df284e3449db8c03c26be256dabad77f6[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 12:33:13 2017 +0300
-
-    Close files
-
-[33mcommit 4bced9fdabbe02dfaf1005b4be4ea35563de8e04[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 12:31:19 2017 +0300
-
-    gets filename
-
-[33mcommit 1b5b4ace171419206b6666c1ebeb03d6f54df56d[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 12:24:34 2017 +0300
-
-    Files yay
-
-[33mcommit b91bdbebf59537aff1cb4ab43cd250ea965cdcde[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 11:52:42 2017 +0300
-
-    argv
-
-[33mcommit f5c5c0d9579f3ba642091112534b5a2d9aae7bf4[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 11:42:55 2017 +0300
-
-    simple pormpt
-
-[33mcommit f5c7ff1aa406756a12faa96d04867feaa3df71f1[m
-Merge: 2221e96 678f15d
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 11:37:44 2017 +0300
-
-    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-
-[33mcommit 2221e9630533864c6a398932055b4601aa7feeb3[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 11:37:31 2017 +0300
-
-    sleep
-
-[33mcommit 95972056b75bf5a13dc27db41afb0cb82982e26d[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 11:37:05 2017 +0300
-
-    sleep
-
-[33mcommit 678f15d5b3d4d36bd586ef4c302800b512b57986[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 09:21:53 2017 +0300
-
-    Create ARGV.rb
-
-[33mcommit 02f163a274f5269805cde7c5c007deb3f4bff5a5[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:44:18 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit 3e08a60836905e5ba2c125df9ca0f16656e680e5[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:40:20 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit d576220696706051f9b6f5e25289bc0ed61b55ee[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:40:01 2017 +0300
-
-    Create tabs_lines.rb
-
-[33mcommit 2bd2bc73f6d654bc55a075384c3f0386602fbdf6[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:23:46 2017 +0300
-
-    Create puts_inside_print.rb
-
-[33mcommit 07f63aa79115ea324dc3bf87d3c5a0a060e51a46[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:23:17 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit 415ab322f0f81119e702493b60d1c91c472535b6[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:18:50 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit 49b6d2f52b8b9993fc4d3c908fb809ca57dd718e[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:17:40 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit 828f98fb717573ac0e8090decfbd7bc8f3676f33[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:14:34 2017 +0300
-
-    Update gender_and_age.rb
-
-[33mcommit a67919e62f39df42bc58ac73a52589fe8a347533[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sun Jul 2 00:11:37 2017 +0300
-
-    Create gender_and_age.rb
-
-[33mcommit 78c570b23074cc019370126c614c63d7eb49181c[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 23:41:47 2017 +0300
-
-    Create alive_or_dead.rb
-
-[33mcommit 24b2ab84975fa17dedee01262ad0cc21bbb4677a[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 19:06:41 2017 +0300
-
-    until loop
-
-[33mcommit 5d811579b9ac98a8159e8b13891099f3d399dd81[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 19:05:19 2017 +0300
-
-    until loop
-
-[33mcommit d283216389473e33d92099e03c36740e67c41241[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:59:44 2017 +0300
-
-    post while doc
-
-[33mcommit cb72ab13ac0e394dcfcc66866d99e7591e649e1f[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:57:30 2017 +0300
-
-    post while
-
-[33mcommit 7709d765a09ffaba07e18442531c6641df3915ac[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:55:18 2017 +0300
-
-    Structure change
-
-[33mcommit 4864128c832bbc4d7505691dd540ba578cbcef9d[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:50:14 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit 517177c38da653264b29465189870d9902316eab[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:48:14 2017 +0300
-
-    while -> docs
-
-[33mcommit 84cdd2702d5f60bc647daede70f54720ed235eea[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:46:21 2017 +0300
-
-    nums till 100
-
-[33mcommit 3de71cbd5d96c679b82ffd2b9bafc1b843368e94[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:26:32 2017 +0300
-
-    vars
-
-[33mcommit 8812906e19e27a65cce37c68b26caedf937c9c96[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:20:55 2017 +0300
-
-    conditionals
-
-[33mcommit f0d00b5878a5c6aa9707a060f1b97f20ecb289e5[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:17:34 2017 +0300
-
-    updated docs
-
-[33mcommit 46c727c002fd988bcde94cfc251195ae7c780326[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Sat Jul 1 18:16:25 2017 +0300
-
-    unless beer
-
-[33mcommit 081c0c87f98cfe8df642f7d8c1ee93b7f51ede5f[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 21:29:03 2017 +0300
-
-    ==
-
-[33mcommit ac350f394f24d369ecdf5d21ab045f2b328c9baa[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 21:20:07 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit 4e476a0d1971c60e18a69eed3a74d6cc8d2008b2[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 21:16:54 2017 +0300
-
-    comments
-
-[33mcommit 7602dab0712d044c89977df41ac7784061e8a849[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 21:14:06 2017 +0300
-
-    comments
-
-[33mcommit b1bab07efd3205bb0580139d24013369e5c942e9[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 21:11:33 2017 +0300
-
-    chomp
-
-[33mcommit 38e869397e29d7b4a27e2cce701c6df8cf59c1b0[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 17:04:22 2017 +0300
-
-    arrays
-
-[33mcommit 36ac8133401403e5e4a68b738b21202e6092a4fa[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 17:00:37 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit d5c27b97b84fe0d45d5d33796fa37d7caaa2ec89[m
-Author: Karina Kozarova <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:59:27 2017 +0300
-
-    Update my_documentation.md
-
-[33mcommit f196a725d1eebd1bda78293abe647a8f4c9ae722[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:58:21 2017 +0300
-
-    s
-
-[33mcommit 6a59d2a150898734a2842455fce08b5545c5e942[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:55:46 2017 +0300
-
-    update docs
-
-[33mcommit cd075a96194779aeeda25d8a40b807e92e4f70fd[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:54:17 2017 +0300
-
-    split string
-
-[33mcommit c9f533539259d30e99a5d3166affeee5ed5999b3[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:52:52 2017 +0300
-
-    get some chars from a string
-
-[33mcommit 8caf65f53e43629b12c07bafc7cb6ea4d6dfed9f[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:50:49 2017 +0300
-
-    string properties
-
-[33mcommit 795df4f9360faa9780d04b93d31a9ed06be06079[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:47:02 2017 +0300
-
-    are you 5
-
-[33mcommit 5f08887e46d21792c4e7db5bf0caa41f65427052[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:43:51 2017 +0300
-
-    if else
-
-[33mcommit 13f9c43d8f1bbc81b4d1bf479660a4bed6048f14[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:40:25 2017 +0300
-
-    more gets
-
-[33mcommit 2a1a120c82895b235f92e6e3143d4c83f4527dd8[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:35:23 2017 +0300
-
-    add math
-
-[33mcommit 6ddd982e30cd811f3b26053cd1115becd7547023[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:34:33 2017 +0300
-
-    add math
-
-[33mcommit de380e80d521092f388c025bee0f284f76073445[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:33:43 2017 +0300
-
-    add math
-
-[33mcommit 279a85dee593dec5f60eb221000d381dca57f9c8[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:26:03 2017 +0300
-
-    Update
-
-[33mcommit 25a14161a1b54fa1519fa87bc256510773afd2e0[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:24:11 2017 +0300
-
-    started docs
-
-[33mcommit d4f0c8d1ea4d46b606ba1fb4f0f53425a67c3fd7[m
-Author: Karina <karinakozarova1303@gmail.com>
-Date:   Fri Jun 30 16:17:20 2017 +0300
-
-    puts and gets
-
-[33mcommit 983fb44869eefea9b61a8558bb4ce7b1e6
+*   b39ceb1 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+|\  
+| * e525f58 : Delete tst.rb
+* | 90eaca1 : small update
+|/  
+* b16ec09 : програма, която изписва произведения от матура и потребителя ттрябва да познае авторът
+* ba7bd9f : better naming
+* 05e577d : Added a program to find the longest streak of digits/nums in a number
+*   1204287 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+|\  
+| * ddbd78e : refactored KB's rules of SD
+| * b16c00e : changed content style
+| * 318624f : add forgoten ````ruby tag
+* | c680fd4 : more info
+|/  
+* 8f8e8db : banking
+* bdfe0c4 : banking
+* 3f89322 : banking
+* ba09b3b : banking
+* d4fa649 : update some files
+* 6b9cb72 : added the pc
+* 0777b36 : final modules section commit
+* b7cbbeb : More modules
+* 5d9b537 : More modules
+* f5d870c : Modules
+* bc3fafa : Modules docs update
+* a8b09bd : Modules docs update
+* ffcbc99 : Class docs update
+* 58792ce : Class docs update
+* 701e283 : more oop
+* 3f4409b : more oop
+* 58f50d3 : more oop
+* 1adb84f : more oop
+* f6698c3 : more oop
+* 1fadbb2 : more oop
+* 79ea69c : more oop
+* 9f49cae : more from the oop section
+* f6fca53 : mre from the  oop section
+* fa6e728 : started oop section
+* 9a83176 : completed section
+* 0c7761a : removed old testing files
+* 9511a54 : more exercises
+* 21e992b : more blocks procs lambdas added
+* 0c7127f : Added some ruby history and overview of the language
+* c74bc89 : Create biggest_num.rb
+* 2dd2a08 : refactoring
+* 7cc6927 : refactor
+* 17fc3a1 : refactor code
+* 88e6b96 : improved readability
+* 60b05a6 : reconstruct
+* 156efce : removed unnecessary comments
+* f8f20c7 : renamed
+* 4716687 : renamed files
+* 3eaa42f : rm comment
+* 41e99bb : removed comments
+* 6697011 : methods and sorting update
+* d043c35 : loops section update
+* b3b8332 : Refactoring code
+* 57c61bf : Update readme
+* afdf1de : More documentation
+* e3bfa23 : Docs update
+* 957099c : Update readme
+* 86afb71 : Update
+* 5d10cd9 : started new section
+* 564408e : started new section
+* 4642bf4 : Added refactoring exercise
+* 5ba1bce : section final upd
+* da76d9f : upd
+* ba6e951 : upd
+* 814dc33 : upd
+* e1c886f : upd
+* b885dc2 : Create zen_of_ruby_section.rb
+* ad2e80b : Update README.md
+* 39daa77 : Update README.md
+* e4190bc : Create movies.rb
+* c79b90c : Update hashes_and_symbols_section.rb
+* a0527d8 : Update README.md
+* d85accb : Update hashes_and_symbols_section.rb
+* e71be01 : Create nums_dont_lie.rb
+* ae066f0 : upd docs
+* 86d1080 : Update hashes_and_symbols_section.rb
+* 45a023d : Update README.md
+* 92fdeaf : Update README.md
+* bc42dc0 : Update README.md
+* e50a844 : Create hashes_and_symbols_section.rb
+* 30b6ce1 : Update README.md
+* 3a9f227 : Update README.md
+* 5a8c37d : Update README.md
+* 51e8b0c : Update README.md
+* 9082393 : Update README.md
+* 19936b6 : Update methods_and_Sorting_section.rb
+* 54dfe1a : docs
+* 4568ecb : docmentation
+* cad5322 : added another bonus task
+* 864a698 : bonus exercise done
+* 3fa5618 : continue of the bonus task
+* c174a79 :  more classes
+* 85d097c : started classes
+* 109d880 : refactor code, fixed small mistake
+* abaedd1 : Create digits.rb
+* 76a9826 : installed rspec
+* 923d885 : hello
+* deb0765 : inf hello
+* ef1f73b : asl
+* 49af69a : game update
+* 6c037e9 : removed old logins
+* c372629 : bug fix
+* 720f043 : User login ruby
+* 38407f8 : update documentation
+* b327ba7 : update documentation
+* 5d06118 : update documentation
+*   7b3b88b : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+|\  
+| * 3a1d178 : Create README.md
+| * be058b0 : Create alphabetize.rb
+| * a344ffa : Create methods_and_Sorting_section.rb
+| * 104a884 : Update README.md
+| * 528fc27 : Create prime_or_not.rb
+| * 2d17ff7 : Create word_histogram.rb
+| * 7912444 : Create data_structures_section.rb
+| * 718fc0e : Create arrays_section.rb
+| * ad7ea4f : Create text_search.rb
+| * 1883b91 : Update loops_section.rb
+| * c07ad92 : Create guess_the_num.rb
+| * 9988c45 : Update README.md
+* | f40460e : update documentation
+* | 6bd2f86 : methods upd
+|/  
+* 92c2687 : upd
+* 16b5788 : More loops
+* 30f9df6 : started loops exercises
+* 3f31029 : downcased
+*   d417b50 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+|\  
+| * 684fd37 : Update README.md
+| * bbd4bd2 : Create thtring.rb
+| * 61ca126 : Create problems.rb
+| * f15efbb : Update section_2.rb
+| * 65c05cb : Create section_3.rb
+| * d649834 : Create section_2.rb
+| * ba23d17 : Create if_else.rb
+| * 99cc0c9 : Create who_are_you.rb
+| * 7636665 : Create section_1.rb
+| * 0a7eeb9 : Create puts_print.rb
+| * f5bba3e : Create assignment.rb
+* | 5209a32 : commit new files
+|/  
+* 8b273d6 : upd
+*   307f1fa : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+|\  
+| * 99f6ffa : Delete first_last_digit_num.rb
+* | e508c5e : removed code mistakes
+* | 1fd67c2 : Hash methods
+* | 95b5f6b : updated
+|/  
+* 3218741 : more examples
+* 5b2b8a4 : array exercises
+* 0f80de0 : array exercise
+* e73cd7e : docc
+* 1309de0 : documentation
+* 0d3ed18 : documentation
+* 83c68f0 : More docs updated
+* af88e84 : fixed closing tag problem
+* 4448e5f : Updated variables section
+* ec39b8d : updated documentation
+* 91b9113 : Docs update
+* 3868fd0 : All exercises into one file with deifferent (and better) realizaton
+* 41783c6 : boiling_point_of_substance('water', 'C') #=> 100
+* 333d6b5 : Added melting point
+* 7204fc7 : temperature conversion
+* 468e9b9 : FGibonacci
+*   4e81546 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+|\  
+| * 273f5b7 : Create print_two_argv.rb
+* | 485d001 : update
+|/  
+* ce57b44 : love ruby
+* 76f05ad : first and last digit
+* e265496 : little ascii
+* 474f1ba : each loop
+* 16e76ca : Delete my_documentation.md
+* 5430ac9 : Move docs
+* 9d9eaba : Move docs
+* 41b148b : Modified documentation
+* f072450 : Update my_documentation.md
+* 377332c : For loop
+* 30c874a : begin..until
+* 5b97cec : file fix
+* 5e1555a : more file training
+* 3f23044 : added quadratic calculator
+* 060e645 : fixed docs
+* 6c8106d : Read line
+* 1287469 : writing files
+* 95402f2 : docs
+* 8a7f3ef : added close to docs
+* c8f9009 : Close files
+* 4bced9f : gets filename
+* 1b5b4ac : Files yay
+* b91bdbe : argv
+* f5c5c0d : simple pormpt
+*   f5c7ff1 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+|\  
+| * 678f15d : Create ARGV.rb
+| * 02f163a : Update my_documentation.md
+| * 3e08a60 : Update my_documentation.md
+| * d576220 : Create tabs_lines.rb
+| * 2bd2bc7 : Create puts_inside_print.rb
+| * 07f63aa : Update my_documentation.md
+| * 415ab32 : Update my_documentation.md
+| * 49b6d2f : Update my_documentation.md
+| * 828f98f : Update gender_and_age.rb
+| * a67919e : Create gender_and_age.rb
+| * 78c570b : Create alive_or_dead.rb
+* | 2221e96 : sleep
+* | 9597205 : sleep
+|/  
+* 24b2ab8 : until loop
+* 5d81157 : until loop
+* d283216 : post while doc
+* cb72ab1 : post while
+* 7709d76 : Structure change
+* 4864128 : Update my_documentation.md
+* 517177c : while -> docs
+* 84cdd27 : nums till 100
+* 3de71cb : vars
+* 8812906 : conditionals
+* f0d00b5 : updated docs
+* 46c727c : unless beer
+* 081c0c8 : ==
+* ac350f3 : Update my_documentation.md
+* 4e476a0 : comments
+* 7602dab : comments
+* b1bab07 : chomp
+* 38e8693 : arrays
+* 36ac813 : Update my_documentation.md
+* d5c27b9 : Update my_documentation.md
+* f196a72 : s
+* 6a59d2a : update docs
+* cd075a9 : split string
+* c9f5335 : get some chars from a string
+* 8caf65f : string properties
+* 795df4f : are you 5
+* 5f08887 : if else
+* 13f9c43 : more gets
+* 2a1a120 : add math
+* 6ddd982 : add math
+* de380e8 : add math
+* 279a85d : Update
+* 25a1416 : started docs
+* d4f0c8d : puts and gets
+* 983fb44 : helloo world
+* 4ca38cc : Initial commit
