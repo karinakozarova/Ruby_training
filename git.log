@@ -1,252 +1,1489 @@
-*   b39ceb1 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-|\  
-| * e525f58 : Delete tst.rb
-* | 90eaca1 : small update
-|/  
-* b16ec09 : програма, която изписва произведения от матура и потребителя ттрябва да познае авторът
-* ba7bd9f : better naming
-* 05e577d : Added a program to find the longest streak of digits/nums in a number
-*   1204287 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-|\  
-| * ddbd78e : refactored KB's rules of SD
-| * b16c00e : changed content style
-| * 318624f : add forgoten ````ruby tag
-* | c680fd4 : more info
-|/  
-* 8f8e8db : banking
-* bdfe0c4 : banking
-* 3f89322 : banking
-* ba09b3b : banking
-* d4fa649 : update some files
-* 6b9cb72 : added the pc
-* 0777b36 : final modules section commit
-* b7cbbeb : More modules
-* 5d9b537 : More modules
-* f5d870c : Modules
-* bc3fafa : Modules docs update
-* a8b09bd : Modules docs update
-* ffcbc99 : Class docs update
-* 58792ce : Class docs update
-* 701e283 : more oop
-* 3f4409b : more oop
-* 58f50d3 : more oop
-* 1adb84f : more oop
-* f6698c3 : more oop
-* 1fadbb2 : more oop
-* 79ea69c : more oop
-* 9f49cae : more from the oop section
-* f6fca53 : mre from the  oop section
-* fa6e728 : started oop section
-* 9a83176 : completed section
-* 0c7761a : removed old testing files
-* 9511a54 : more exercises
-* 21e992b : more blocks procs lambdas added
-* 0c7127f : Added some ruby history and overview of the language
-* c74bc89 : Create biggest_num.rb
-* 2dd2a08 : refactoring
-* 7cc6927 : refactor
-* 17fc3a1 : refactor code
-* 88e6b96 : improved readability
-* 60b05a6 : reconstruct
-* 156efce : removed unnecessary comments
-* f8f20c7 : renamed
-* 4716687 : renamed files
-* 3eaa42f : rm comment
-* 41e99bb : removed comments
-* 6697011 : methods and sorting update
-* d043c35 : loops section update
-* b3b8332 : Refactoring code
-* 57c61bf : Update readme
-* afdf1de : More documentation
-* e3bfa23 : Docs update
-* 957099c : Update readme
-* 86afb71 : Update
-* 5d10cd9 : started new section
-* 564408e : started new section
-* 4642bf4 : Added refactoring exercise
-* 5ba1bce : section final upd
-* da76d9f : upd
-* ba6e951 : upd
-* 814dc33 : upd
-* e1c886f : upd
-* b885dc2 : Create zen_of_ruby_section.rb
-* ad2e80b : Update README.md
-* 39daa77 : Update README.md
-* e4190bc : Create movies.rb
-* c79b90c : Update hashes_and_symbols_section.rb
-* a0527d8 : Update README.md
-* d85accb : Update hashes_and_symbols_section.rb
-* e71be01 : Create nums_dont_lie.rb
-* ae066f0 : upd docs
-* 86d1080 : Update hashes_and_symbols_section.rb
-* 45a023d : Update README.md
-* 92fdeaf : Update README.md
-* bc42dc0 : Update README.md
-* e50a844 : Create hashes_and_symbols_section.rb
-* 30b6ce1 : Update README.md
-* 3a9f227 : Update README.md
-* 5a8c37d : Update README.md
-* 51e8b0c : Update README.md
-* 9082393 : Update README.md
-* 19936b6 : Update methods_and_Sorting_section.rb
-* 54dfe1a : docs
-* 4568ecb : docmentation
-* cad5322 : added another bonus task
-* 864a698 : bonus exercise done
-* 3fa5618 : continue of the bonus task
-* c174a79 :  more classes
-* 85d097c : started classes
-* 109d880 : refactor code, fixed small mistake
-* abaedd1 : Create digits.rb
-* 76a9826 : installed rspec
-* 923d885 : hello
-* deb0765 : inf hello
-* ef1f73b : asl
-* 49af69a : game update
-* 6c037e9 : removed old logins
-* c372629 : bug fix
-* 720f043 : User login ruby
-* 38407f8 : update documentation
-* b327ba7 : update documentation
-* 5d06118 : update documentation
-*   7b3b88b : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-|\  
-| * 3a1d178 : Create README.md
-| * be058b0 : Create alphabetize.rb
-| * a344ffa : Create methods_and_Sorting_section.rb
-| * 104a884 : Update README.md
-| * 528fc27 : Create prime_or_not.rb
-| * 2d17ff7 : Create word_histogram.rb
-| * 7912444 : Create data_structures_section.rb
-| * 718fc0e : Create arrays_section.rb
-| * ad7ea4f : Create text_search.rb
-| * 1883b91 : Update loops_section.rb
-| * c07ad92 : Create guess_the_num.rb
-| * 9988c45 : Update README.md
-* | f40460e : update documentation
-* | 6bd2f86 : methods upd
-|/  
-* 92c2687 : upd
-* 16b5788 : More loops
-* 30f9df6 : started loops exercises
-* 3f31029 : downcased
-*   d417b50 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-|\  
-| * 684fd37 : Update README.md
-| * bbd4bd2 : Create thtring.rb
-| * 61ca126 : Create problems.rb
-| * f15efbb : Update section_2.rb
-| * 65c05cb : Create section_3.rb
-| * d649834 : Create section_2.rb
-| * ba23d17 : Create if_else.rb
-| * 99cc0c9 : Create who_are_you.rb
-| * 7636665 : Create section_1.rb
-| * 0a7eeb9 : Create puts_print.rb
-| * f5bba3e : Create assignment.rb
-* | 5209a32 : commit new files
-|/  
-* 8b273d6 : upd
-*   307f1fa : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-|\  
-| * 99f6ffa : Delete first_last_digit_num.rb
-* | e508c5e : removed code mistakes
-* | 1fd67c2 : Hash methods
-* | 95b5f6b : updated
-|/  
-* 3218741 : more examples
-* 5b2b8a4 : array exercises
-* 0f80de0 : array exercise
-* e73cd7e : docc
-* 1309de0 : documentation
-* 0d3ed18 : documentation
-* 83c68f0 : More docs updated
-* af88e84 : fixed closing tag problem
-* 4448e5f : Updated variables section
-* ec39b8d : updated documentation
-* 91b9113 : Docs update
-* 3868fd0 : All exercises into one file with deifferent (and better) realizaton
-* 41783c6 : boiling_point_of_substance('water', 'C') #=> 100
-* 333d6b5 : Added melting point
-* 7204fc7 : temperature conversion
-* 468e9b9 : FGibonacci
-*   4e81546 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-|\  
-| * 273f5b7 : Create print_two_argv.rb
-* | 485d001 : update
-|/  
-* ce57b44 : love ruby
-* 76f05ad : first and last digit
-* e265496 : little ascii
-* 474f1ba : each loop
-* 16e76ca : Delete my_documentation.md
-* 5430ac9 : Move docs
-* 9d9eaba : Move docs
-* 41b148b : Modified documentation
-* f072450 : Update my_documentation.md
-* 377332c : For loop
-* 30c874a : begin..until
-* 5b97cec : file fix
-* 5e1555a : more file training
-* 3f23044 : added quadratic calculator
-* 060e645 : fixed docs
-* 6c8106d : Read line
-* 1287469 : writing files
-* 95402f2 : docs
-* 8a7f3ef : added close to docs
-* c8f9009 : Close files
-* 4bced9f : gets filename
-* 1b5b4ac : Files yay
-* b91bdbe : argv
-* f5c5c0d : simple pormpt
-*   f5c7ff1 : Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
-|\  
-| * 678f15d : Create ARGV.rb
-| * 02f163a : Update my_documentation.md
-| * 3e08a60 : Update my_documentation.md
-| * d576220 : Create tabs_lines.rb
-| * 2bd2bc7 : Create puts_inside_print.rb
-| * 07f63aa : Update my_documentation.md
-| * 415ab32 : Update my_documentation.md
-| * 49b6d2f : Update my_documentation.md
-| * 828f98f : Update gender_and_age.rb
-| * a67919e : Create gender_and_age.rb
-| * 78c570b : Create alive_or_dead.rb
-* | 2221e96 : sleep
-* | 9597205 : sleep
-|/  
-* 24b2ab8 : until loop
-* 5d81157 : until loop
-* d283216 : post while doc
-* cb72ab1 : post while
-* 7709d76 : Structure change
-* 4864128 : Update my_documentation.md
-* 517177c : while -> docs
-* 84cdd27 : nums till 100
-* 3de71cb : vars
-* 8812906 : conditionals
-* f0d00b5 : updated docs
-* 46c727c : unless beer
-* 081c0c8 : ==
-* ac350f3 : Update my_documentation.md
-* 4e476a0 : comments
-* 7602dab : comments
-* b1bab07 : chomp
-* 38e8693 : arrays
-* 36ac813 : Update my_documentation.md
-* d5c27b9 : Update my_documentation.md
-* f196a72 : s
-* 6a59d2a : update docs
-* cd075a9 : split string
-* c9f5335 : get some chars from a string
-* 8caf65f : string properties
-* 795df4f : are you 5
-* 5f08887 : if else
-* 13f9c43 : more gets
-* 2a1a120 : add math
-* 6ddd982 : add math
-* de380e8 : add math
-* 279a85d : Update
-* 25a1416 : started docs
-* d4f0c8d : puts and gets
-* 983fb44 : helloo world
-* 4ca38cc : Initial commit
+commit 3ceb2c8bddb205803ccca8cf33017f474831e57b
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 11 17:20:41 2017 +0300
+
+    removed doubled version of files
+
+commit b1b1d7805feb6f5dbc3914bd73a59a0340278a7f
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 11 17:19:42 2017 +0300
+
+    Added HB's original resources for week 1 and solutions to them
+
+commit ecab2df42e55b087f1dbc69c076f2080fe44d63f
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 11 15:26:02 2017 +0300
+
+    Add antoher exercise, improve readme history
+
+commit 2cc4cbdfec94251901bb7583a38ca7fc7f26b2c7
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 11 15:11:33 2017 +0300
+
+    Added more HB exercises
+
+commit 24164850dc327ab33fd50348f48f593c158ee00f
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 11 09:17:43 2017 +0300
+
+    Added first exercises from HB course
+
+commit 70584a5ef0c761bc205ce15f55763eb1e0f06d19
+Merge: c99d708 4a03e5d
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 10 12:00:48 2017 +0300
+
+    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+
+commit c99d70883453913f991641bd2fec5292f254e50c
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 10 12:00:28 2017 +0300
+
+    update git log
+
+commit 4a03e5dad2386910f410f6aa38c08d4991697390
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 10 00:30:59 2017 +0300
+
+    Create Resources.md
+
+commit 5942cd44e9a6b3bf05024b3dda228389fad98978
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 22:37:22 2017 +0300
+
+    Create .travis.yml
+
+commit b39ceb14db55bcbf761c5a2fd0cc17630ea9a03e
+Merge: 90eaca1 e525f58
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 22:16:03 2017 +0300
+
+    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+
+commit 90eaca196d9fe3eac8f76c134152a2b1ef9fd550
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 22:15:30 2017 +0300
+
+    small update
+
+commit e525f58a99f063880ff3200f5f32e77decdca54e
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 21:27:04 2017 +0300
+
+    Delete tst.rb
+
+commit b16ec09e5d6508afc2d4f3956633a656dddfe0f2
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 21:26:07 2017 +0300
+
+    програма, която изписва произведения от матура и потребителя ттрябва да познае авторът
+
+commit ba7bd9f5164d134610e108a19c553949255eee6a
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 20:19:09 2017 +0300
+
+    better naming
+
+commit 05e577d9ad2403ca2b5ba2dff23c5d125317f9bf
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 18:32:02 2017 +0300
+
+    Added a program to find the longest streak of digits/nums in a number
+
+commit 1204287099e471eb6089bf80a235b4bea4fbf994
+Merge: c680fd4 ddbd78e
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:46:27 2017 +0300
+
+    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+
+commit c680fd4ab8febb8b7d19e209f68a0993d2d8f57e
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:46:17 2017 +0300
+
+    more info
+
+commit ddbd78e221702db2ef774f954ab4382a810ae82c
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:23:35 2017 +0300
+
+    refactored KB's rules of SD
+
+commit b16c00e2d786b2fbee9f0387afaaa5264e1be460
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:22:48 2017 +0300
+
+    changed content style
+
+commit 318624fa79abd36fa079dfd3debd67d884cc30f4
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:20:06 2017 +0300
+
+    add forgoten ````ruby tag
+
+commit 8f8e8db4fbee8ec5efc3dcdb0fce5b79306606df
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:09:05 2017 +0300
+
+    banking
+
+commit bdfe0c4900fda762604ffa61d197a517fc5c7ce3
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:08:48 2017 +0300
+
+    banking
+
+commit 3f893226f25c22375379963967aefa342106c1ae
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:03:20 2017 +0300
+
+    banking
+
+commit ba09b3bfd1a71496e009ff067e89799bcef12f61
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 16:01:05 2017 +0300
+
+    banking
+
+commit d4fa6498f8a36b1a01a9d6e0ec1b49f8c0170313
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:57:03 2017 +0300
+
+    update some files
+
+commit 6b9cb72baf0d70909d91bfa384225eb7b90d16f1
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:49:27 2017 +0300
+
+    added the pc
+
+commit 0777b361212febe8376f575f12d9c108ac085d01
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:43:32 2017 +0300
+
+    final modules section commit
+
+commit b7cbbebd8c868a494aaea3a1e5dbec010954b05f
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:42:03 2017 +0300
+
+    More modules
+
+commit 5d9b537ba3b1b4e0723ad94076c99a13d54ecff1
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:40:10 2017 +0300
+
+    More modules
+
+commit f5d870c2111093242f28c353595bbd1ba18ee023
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:35:45 2017 +0300
+
+    Modules
+
+commit bc3fafa820e87bdfc8cf4723c376cc4e02310dc8
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:30:33 2017 +0300
+
+    Modules docs update
+
+commit a8b09bd64a3629559bf1236cb3b3e8dd958405a0
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:26:24 2017 +0300
+
+    Modules docs update
+
+commit ffcbc99b9cff99506a7caae8372decd70ed49c4d
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:22:26 2017 +0300
+
+    Class docs update
+
+commit 58792ce78848fd8b25ccef44e11833ecbfc0b418
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:20:46 2017 +0300
+
+    Class docs update
+
+commit 701e28385f4cfba4d401ef0dfecaa2077cf3c4e9
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:12:41 2017 +0300
+
+    more oop
+
+commit 3f4409b3c783af8782c0aa951695d0d946bddedb
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:09:01 2017 +0300
+
+    more oop
+
+commit 58f50d32b56621f81726813128cad8916f628e07
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:04:33 2017 +0300
+
+    more oop
+
+commit 1adb84fa3dcc04910f4f2c17e4c4f11037e0fda7
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:03:58 2017 +0300
+
+    more oop
+
+commit f6698c36455df303e3cf467700a2113241c07729
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:03:04 2017 +0300
+
+    more oop
+
+commit 1fadbb2923269ba10b318b0e62b85e77256169d2
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 15:01:22 2017 +0300
+
+    more oop
+
+commit 79ea69c207e2a752279b3667566c895ab53d776e
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 14:59:30 2017 +0300
+
+    more oop
+
+commit 9f49cae0cdf73ea7d4221c3ceb066d889535fbae
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 14:56:45 2017 +0300
+
+    more from the oop section
+
+commit f6fca538faeb5a4726012a933b8a2446cbdba20a
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 14:54:58 2017 +0300
+
+    mre from the  oop section
+
+commit fa6e728b914585ccb742adc8a9db63c85e23743f
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 14:51:57 2017 +0300
+
+    started oop section
+
+commit 9a83176ae4526144106cdef0bfce30f333de8475
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 14:42:34 2017 +0300
+
+    completed section
+
+commit 0c7761a4c726109c0017ba7775c7cfc72a5c4564
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 14:36:17 2017 +0300
+
+    removed old testing files
+
+commit 9511a54ae079e59733fbe6dc7a38ec34a7baf61f
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 14:35:35 2017 +0300
+
+    more exercises
+
+commit 21e992bc6c671c62754f0e9675495e644f05c4af
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 14:27:35 2017 +0300
+
+    more blocks procs lambdas added
+
+commit 0c7127f5f83119cc164536fa82c08de76a3262f0
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 9 13:34:15 2017 +0300
+
+    Added some ruby history and overview of the language
+
+commit c74bc8927b04a22acd11462c7763b947122cfb10
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sat Jul 8 20:31:09 2017 +0300
+
+    Create biggest_num.rb
+
+commit 2dd2a08378357212073c4c925648049c90dd2e11
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 15:38:34 2017 +0300
+
+    refactoring
+
+commit 7cc69279582dd2452cd448a136fe1facf051fdb4
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 15:37:40 2017 +0300
+
+    refactor
+
+commit 17fc3a16c97270bfa12abd8f33a2614760ad0991
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 15:36:04 2017 +0300
+
+    refactor code
+
+commit 88e6b96799c446702c2b8b13be4e78d954b8d9d9
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 15:34:42 2017 +0300
+
+    improved readability
+
+commit 60b05a6c37f43989a59993d94be9f8eccc125431
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 15:33:40 2017 +0300
+
+    reconstruct
+
+commit 156efce5db090e8802b43800847676e81a56c495
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 14:20:49 2017 +0300
+
+    removed unnecessary comments
+
+commit f8f20c7daedacd522e8c275d0786b837a578c62c
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 14:19:52 2017 +0300
+
+    renamed
+
+commit 47166876aa3fc36aa88761afb64d6631cc5c65d2
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 14:19:29 2017 +0300
+
+    renamed files
+
+commit 3eaa42f9e13cd30c7acdf0c8099a3c234104c35f
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 14:18:29 2017 +0300
+
+    rm comment
+
+commit 41e99bbf5f181f9632927bbdc85ba679f8810507
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 14:18:03 2017 +0300
+
+    removed comments
+
+commit 6697011dee1ddddb369bbe8516a406cf21b5ae78
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 14:17:26 2017 +0300
+
+    methods and sorting update
+
+commit d043c35117650dbfc3db752451dd5c6eba41d4a0
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 14:15:31 2017 +0300
+
+    loops section update
+
+commit b3b83321ed518ffaac3c22e8056b7aa95dd494e8
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 14:14:56 2017 +0300
+
+    Refactoring code
+
+commit 57c61bfb18b46ebd62523a8a515ce18cc11c575d
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 13:10:34 2017 +0300
+
+    Update readme
+
+commit afdf1deae4ba68ee2e23fe31f2fa32ce95636fa4
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 13:07:54 2017 +0300
+
+    More documentation
+
+commit e3bfa2316cb31312778d48b2c4863e1cde0fff7b
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 13:01:34 2017 +0300
+
+    Docs update
+
+commit 957099c611c2df90bfdf54e441bb3fcf8dae991b
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jul 7 12:57:21 2017 +0300
+
+    Update readme
+
+commit 86afb71e179341ddfd5781d7d681c9227344b066
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 23:39:12 2017 +0300
+
+    Update
+
+commit 5d10cd971f50353442a108830107d0450f3f730b
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 21:26:24 2017 +0300
+
+    started new section
+
+commit 564408eb85977777118340f3c284eb06c3328083
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 21:20:46 2017 +0300
+
+    started new section
+
+commit 4642bf4ffec6c4604a3c80d9415d28f2eeeb528e
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 20:54:55 2017 +0300
+
+    Added refactoring exercise
+
+commit 5ba1bceb60d8cb10381fefce80f1f2c095d3ebce
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 20:46:32 2017 +0300
+
+    section final upd
+
+commit da76d9f099bf38a273ad50cfd7d14af3d59d2bff
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 20:44:25 2017 +0300
+
+    upd
+
+commit ba6e95161ba03535e1ca05b0116015760953671d
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 16:55:07 2017 +0300
+
+    upd
+
+commit 814dc335e5451288f65789aebd551f657a1db5c0
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 16:41:29 2017 +0300
+
+    upd
+
+commit e1c886f80744737524a3c8f4e84cb54c626d4672
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 16:40:45 2017 +0300
+
+    upd
+
+commit b885dc2b8d2e33a2fc6ade15ee7dcd7443895b42
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 16:28:32 2017 +0300
+
+    Create zen_of_ruby_section.rb
+
+commit ad2e80bd41f1b7bbe46c363191328f9fa2c00706
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 15:29:02 2017 +0300
+
+    Update README.md
+
+commit 39daa77e25bf2a5727d4ce3eca53c8425f65f58b
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 15:26:47 2017 +0300
+
+    Update README.md
+
+commit e4190bc876e5b81bac44462a7f4a3e14f8f68a3d
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 15:16:58 2017 +0300
+
+    Create movies.rb
+
+commit c79b90cb46083126755826248ff9ec5e3b14ed34
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 15:16:16 2017 +0300
+
+    Update hashes_and_symbols_section.rb
+
+commit a0527d88d30b19f06572a1eb938f4467bed09096
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 15:14:46 2017 +0300
+
+    Update README.md
+
+commit d85accbf6415a42b4d534b5f16de677d476b5f12
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 15:13:21 2017 +0300
+
+    Update hashes_and_symbols_section.rb
+
+commit e71be0161331c2353a8f79af7673d8b52d1449be
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 15:11:27 2017 +0300
+
+    Create nums_dont_lie.rb
+
+commit ae066f033437606ecba69b490e4ce1e068d41974
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 15:09:53 2017 +0300
+
+    upd docs
+
+commit 86d10806c94762a14511f08d9fa4ed9c765b696b
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:49:56 2017 +0300
+
+    Update hashes_and_symbols_section.rb
+
+commit 45a023d4359abfa449b400863a9d7fce6f9010e3
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:49:37 2017 +0300
+
+    Update README.md
+
+commit 92fdeaf4d1e18d87d9a5468e93015375bd9555df
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:45:21 2017 +0300
+
+    Update README.md
+
+commit bc42dc0110e9a7081d83925cafd3267999277d7e
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:44:14 2017 +0300
+
+    Update README.md
+
+commit e50a844a98bd111e69e74df607047c2a8651ded4
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:43:36 2017 +0300
+
+    Create hashes_and_symbols_section.rb
+
+commit 30b6ce15b1c28d18440e5baa713a008866933b65
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:40:49 2017 +0300
+
+    Update README.md
+
+commit 3a9f227e990c9fbfd2057b2ff093309378783661
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:39:08 2017 +0300
+
+    Update README.md
+
+commit 5a8c37d7da9cff75ca37cf0068b1afe4c8bfe68f
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:38:15 2017 +0300
+
+    Update README.md
+
+commit 51e8b0ca4a3617faf6b6692bd3e2eac5203320be
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:37:01 2017 +0300
+
+    Update README.md
+
+commit 9082393cbcd060b6542a4eb76c062725966179e7
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:34:42 2017 +0300
+
+    Update README.md
+
+commit 19936b6f1c4b2a405ca48b24c4598c6a94de65a6
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Thu Jul 6 14:31:13 2017 +0300
+
+    Update methods_and_Sorting_section.rb
+
+commit 54dfe1aa9908f980fd2fba074056d250f14b5244
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 23:20:27 2017 +0300
+
+    docs
+
+commit 4568ecb522b668286f40e89827cf87da7f7492f0
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 23:19:53 2017 +0300
+
+    docmentation
+
+commit cad532254c7a3145eef2ce4faf439665e6a36102
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 20:31:09 2017 +0300
+
+    added another bonus task
+
+commit 864a698aae02e07b3b17e7f3b03b3b61f79feb66
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 20:11:40 2017 +0300
+
+    bonus exercise done
+
+commit 3fa5618d1c9309249ac64b6a7eda5df035bf2c9c
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 19:56:19 2017 +0300
+
+    continue of the bonus task
+
+commit c174a79d2e15e400febbedb82d6d483801781de1
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 16:14:10 2017 +0300
+
+     more classes
+
+commit 85d097c32a8fd0c7365d603b4defc3d36803ac8c
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 16:09:32 2017 +0300
+
+    started classes
+
+commit 109d8801faaf762460005510476b7c8fb2747491
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 11:25:45 2017 +0300
+
+    refactor code, fixed small mistake
+
+commit abaedd12ac3635d0757d0b99fd2a17878ee862b9
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Wed Jul 5 01:01:16 2017 +0300
+
+    Create digits.rb
+
+commit 76a982695ba001e0a89a08419f8c4aff909e36ba
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 23:03:50 2017 +0300
+
+    installed rspec
+
+commit 923d88571fac157e9a6381e9ef0ab0db94d7c8ea
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 21:11:13 2017 +0300
+
+    hello
+
+commit deb07650eaba86d166b667a8ba8dcde76244a422
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 21:10:28 2017 +0300
+
+    inf hello
+
+commit ef1f73b2f24dacc1fb5a81e21773829e750c008a
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 21:08:42 2017 +0300
+
+    asl
+
+commit 49af69a2d76ea7e0bfb8400ea1c685011339dcae
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 21:06:16 2017 +0300
+
+    game update
+
+commit 6c037e9659a75ccd8cfafee618bfc9ceffd520c6
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 20:42:50 2017 +0300
+
+    removed old logins
+
+commit c37262916f70986fb3782bc0b6fdef9fdc203d95
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 20:42:16 2017 +0300
+
+    bug fix
+
+commit 720f043055786c708e7c6c944be758cc0867513a
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 20:38:50 2017 +0300
+
+    User login ruby
+
+commit 38407f88a3a3efecadf3e33df00fb921ab12f0a7
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 18:40:29 2017 +0300
+
+    update documentation
+
+commit b327ba7a905e73c7a8af3301fd210c845be44dca
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 18:20:05 2017 +0300
+
+    update documentation
+
+commit 5d06118e5358bf79dd0547ef764a508c049bf9d3
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 18:11:36 2017 +0300
+
+    update documentation
+
+commit 7b3b88b60c99a2e2df32325b30918d427e03aa35
+Merge: f40460e 3a1d178
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 18:10:20 2017 +0300
+
+    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+
+commit f40460e531b1ef02f2dff00e7d5f564c926dabf2
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 18:10:01 2017 +0300
+
+    update documentation
+
+commit 6bd2f865f517ce08fb79a32f74398b467f8bc4c1
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 18:06:32 2017 +0300
+
+    methods upd
+
+commit 3a1d1785eafb14437d42a3d74530ea85d968f85d
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 17:25:40 2017 +0300
+
+    Create README.md
+
+commit be058b0a9ee1d90b0fb70aa22c036f3ec2ba2a00
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 17:09:51 2017 +0300
+
+    Create alphabetize.rb
+
+commit a344ffa560ca381faf6aa8b97ce12f458779db6b
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 14:51:16 2017 +0300
+
+    Create methods_and_Sorting_section.rb
+
+commit 104a88429dc199441ddfff114b6e8313d56dbd15
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 14:45:54 2017 +0300
+
+    Update README.md
+
+commit 528fc27369e708694d1c0f4f3cdbbf49d362287b
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 14:38:00 2017 +0300
+
+    Create prime_or_not.rb
+
+commit 2d17ff73ac94409a4466ae21917097c485e06ed3
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 13:05:27 2017 +0300
+
+    Create word_histogram.rb
+
+commit 7912444babd89d4f20dae340a30fb98341b25281
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 13:00:16 2017 +0300
+
+    Create data_structures_section.rb
+
+commit 718fc0e38b80659bda3976ed1e07a07c94b5d43e
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 12:19:36 2017 +0300
+
+    Create arrays_section.rb
+
+commit ad7ea4fb413b4ea146b509ce1f2a9c6107569dee
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 00:36:30 2017 +0300
+
+    Create text_search.rb
+
+commit 1883b913988c60fc97051b1011e18222a516b7c9
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 00:35:36 2017 +0300
+
+    Update loops_section.rb
+
+commit c07ad92548480f1f70c38cdca9e4137cdc782e07
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 00:24:04 2017 +0300
+
+    Create guess_the_num.rb
+
+commit 9988c453fb07b967dbaf641102024bbcd1a00566
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Tue Jul 4 00:19:03 2017 +0300
+
+    Update README.md
+
+commit 92c2687626a179a7004166d96d23d2738829d4f2
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 21:17:33 2017 +0300
+
+    upd
+
+commit 16b5788897b0ee7a30d4949b9641863bc7678037
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 21:04:38 2017 +0300
+
+    More loops
+
+commit 30f9df6921ad8208526723091f8584ec694da78e
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 20:57:19 2017 +0300
+
+    started loops exercises
+
+commit 3f31029ba67bcc596eaa8510e1f9286f9684d6de
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 20:48:51 2017 +0300
+
+    downcased
+
+commit d417b50981bda8d57ea6665b0f993b1a83fed382
+Merge: 5209a32 684fd37
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 20:41:42 2017 +0300
+
+    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+
+commit 5209a325f430cc8a49beec24ac688d00c8cbcfe1
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 17:12:10 2017 +0300
+
+    commit new files
+
+commit 684fd3744d9519693242b631f1e0bb4e13f89928
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 15:10:31 2017 +0300
+
+    Update README.md
+
+commit bbd4bd2e3b95e8a29aa3b3dbfe1b2903c77815a6
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 15:08:38 2017 +0300
+
+    Create thtring.rb
+
+commit 61ca12605168083f3f9f01f152517ed3d59bfe12
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 15:08:14 2017 +0300
+
+    Create problems.rb
+
+commit f15efbb7254591805f18ee10e725b38eeee227e4
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 15:04:18 2017 +0300
+
+    Update section_2.rb
+
+commit 65c05cbd316c99ea7e8004b572d0f765e10cccde
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 15:02:31 2017 +0300
+
+    Create section_3.rb
+
+commit d649834112f073a90c5287b2f59692a1a7826b67
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:59:10 2017 +0300
+
+    Create section_2.rb
+
+commit ba23d17648697b0cf94c725b128a9412691d978d
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:54:06 2017 +0300
+
+    Create if_else.rb
+
+commit 99cc0c9853cd9995346da4f909b37a5375fd6052
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:49:38 2017 +0300
+
+    Create who_are_you.rb
+
+commit 763666533312ab08fcb21a297525e83cbeb789e7
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:48:55 2017 +0300
+
+    Create section_1.rb
+
+commit 0a7eeb95d722f0d9d52bb68a922b8cc8103b1e82
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:41:55 2017 +0300
+
+    Create puts_print.rb
+
+commit f5bba3e5cdc33e3a1436180c5a5eff6c5441f120
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:40:36 2017 +0300
+
+    Create assignment.rb
+
+commit 8b273d6298ecd4a8caa83f5c719dee273f21c207
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:30:52 2017 +0300
+
+    upd
+
+commit 307f1fa29816792380772866d069dfc72025d1a8
+Merge: e508c5e 99f6ffa
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:27:18 2017 +0300
+
+    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+
+commit e508c5e60570b9dfd4b7590465c41fd09b5697e1
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 14:27:03 2017 +0300
+
+    removed code mistakes
+
+commit 1fd67c20cc519c409524626676dcfb8c60682d97
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 13:35:16 2017 +0300
+
+    Hash methods
+
+commit 95b5f6ba54d0aa073590c9385416b3132de8b835
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 13:26:09 2017 +0300
+
+    updated
+
+commit 99f6ffa06559ca3906e69c1f86e46b99b51e45e6
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 12:50:22 2017 +0300
+
+    Delete first_last_digit_num.rb
+
+commit 32187414a1ee236a65ce8b70b8d63b87921562af
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 12:31:50 2017 +0300
+
+    more examples
+
+commit 5b2b8a4218306765e23dd8a28f9eb4aa54447912
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 12:18:53 2017 +0300
+
+    array exercises
+
+commit 0f80de067d48572c556e93f4eb72fba8dadef6d5
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 12:14:24 2017 +0300
+
+    array exercise
+
+commit e73cd7e57cd75f0a583eb8b870a9d93c46b7e3f4
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 12:06:22 2017 +0300
+
+    docc
+
+commit 1309de0e922cea2d3e064428fd2a4ba858557212
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 12:04:27 2017 +0300
+
+    documentation
+
+commit 0d3ed18142258f4a9311783c02780f03adf1a461
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 12:03:34 2017 +0300
+
+    documentation
+
+commit 83c68f04f4b7a7e117f1992d1a675e53aaed8268
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:57:10 2017 +0300
+
+    More docs updated
+
+commit af88e848b91db2ea7fe278034c1618e409385c56
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:54:49 2017 +0300
+
+    fixed closing tag problem
+
+commit 4448e5ff0e13fc0c6dfea30ab5a17b88805c9dd0
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:54:26 2017 +0300
+
+    Updated variables section
+
+commit ec39b8daa7ddebf3e0a6277ea38d649f4e53ae81
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:52:13 2017 +0300
+
+    updated documentation
+
+commit 91b9113f6d6567e4ea4658b0e26def4f98afe5b4
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:49:05 2017 +0300
+
+    Docs update
+
+commit 3868fd09b3313e07ccc47300c8010f9d80d38e39
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:43:17 2017 +0300
+
+    All exercises into one file with deifferent (and better) realizaton
+
+commit 41783c6d9f7a66753778bbd87a18611f1da9814e
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:23:33 2017 +0300
+
+    boiling_point_of_substance('water', 'C') #=> 100
+
+commit 333d6b5cec15d66ac22b051e1c537cdf835150d7
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:17:22 2017 +0300
+
+    Added melting point
+
+commit 7204fc79b419419ca6fcd70e145f81193d4ead0a
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 11:06:28 2017 +0300
+
+    temperature conversion
+
+commit 468e9b9c0cef31415a5e2ac7e58b4f7916c8a53e
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 10:50:28 2017 +0300
+
+    FGibonacci
+
+commit 4e81546231400fbfc5575eb82a958dc2b06903ce
+Merge: 485d001 273f5b7
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 10:12:00 2017 +0300
+
+    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+
+commit 485d0012b4d77fe28d643947e832c9b112dd7911
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 10:11:45 2017 +0300
+
+    update
+
+commit 273f5b7430d22288facfa24a2b4155107af42887
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Mon Jul 3 00:30:14 2017 +0300
+
+    Create print_two_argv.rb
+
+commit ce57b447c89b3ecaa6cc4217f884a4aafa5181f2
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 22:03:37 2017 +0300
+
+    love ruby
+
+commit 76f05ad3dcff90bd09140ef4ae24616ea111e70a
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 20:40:06 2017 +0300
+
+    first and last digit
+
+commit e26549650d5b794af671b7a12f49d7ce774129df
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 20:27:28 2017 +0300
+
+    little ascii
+
+commit 474f1ba9b97b87d231c2b00df281c71896ef47ef
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 20:16:58 2017 +0300
+
+    each loop
+
+commit 16e76cabd06669b183b94669737dacee5f94b300
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 19:44:45 2017 +0300
+
+    Delete my_documentation.md
+
+commit 5430ac900ec5736f2b7abb0e29092de0fbacef86
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 19:44:25 2017 +0300
+
+    Move docs
+
+commit 9d9eaba28551b4376cdc0677cce1c2b4cc6728fd
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 19:44:15 2017 +0300
+
+    Move docs
+
+commit 41b148be75ac87d956267cc4ede5c40ed323cea3
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 19:42:36 2017 +0300
+
+    Modified documentation
+
+commit f0724508f2c76a0859264cdaee333ddceb054a78
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 19:40:49 2017 +0300
+
+    Update my_documentation.md
+
+commit 377332caea521af95a960d4e1366e9e576bec71f
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 19:37:23 2017 +0300
+
+    For loop
+
+commit 30c874a68a83651c33ffd61ef9c80264f69ae9e3
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 19:17:39 2017 +0300
+
+    begin..until
+
+commit 5b97cec02f45ae82d71cb1c13e4df176af812fc7
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 18:18:52 2017 +0300
+
+    file fix
+
+commit 5e1555a807d842e4effe4483b749dc1b15791695
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 18:10:41 2017 +0300
+
+    more file training
+
+commit 3f2304400a8267bc0a0bf7591a741ce1d9318de3
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 13:27:39 2017 +0300
+
+    added quadratic calculator
+
+commit 060e6455b1031e819f873578c7f699a6b5bb83b2
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 13:03:31 2017 +0300
+
+    fixed docs
+
+commit 6c8106d681f7daf8fe25b8688e5de05d027992dd
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 13:01:25 2017 +0300
+
+    Read line
+
+commit 1287469efbd6110030a288f4b212922903aa0154
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 12:59:00 2017 +0300
+
+    writing files
+
+commit 95402f2f01cdc0240f797328b44441260aa08020
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 12:56:08 2017 +0300
+
+    docs
+
+commit 8a7f3efa1e55d65e76c064a57e485a4ba98a7961
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 12:34:09 2017 +0300
+
+    added close to docs
+
+commit c8f9009df284e3449db8c03c26be256dabad77f6
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 12:33:13 2017 +0300
+
+    Close files
+
+commit 4bced9fdabbe02dfaf1005b4be4ea35563de8e04
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 12:31:19 2017 +0300
+
+    gets filename
+
+commit 1b5b4ace171419206b6666c1ebeb03d6f54df56d
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 12:24:34 2017 +0300
+
+    Files yay
+
+commit b91bdbebf59537aff1cb4ab43cd250ea965cdcde
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 11:52:42 2017 +0300
+
+    argv
+
+commit f5c5c0d9579f3ba642091112534b5a2d9aae7bf4
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 11:42:55 2017 +0300
+
+    simple pormpt
+
+commit f5c7ff1aa406756a12faa96d04867feaa3df71f1
+Merge: 2221e96 678f15d
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 11:37:44 2017 +0300
+
+    Merge branch 'master' of https://github.com/karinakozarova/Ruby_training
+
+commit 2221e9630533864c6a398932055b4601aa7feeb3
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 11:37:31 2017 +0300
+
+    sleep
+
+commit 95972056b75bf5a13dc27db41afb0cb82982e26d
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 11:37:05 2017 +0300
+
+    sleep
+
+commit 678f15d5b3d4d36bd586ef4c302800b512b57986
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 09:21:53 2017 +0300
+
+    Create ARGV.rb
+
+commit 02f163a274f5269805cde7c5c007deb3f4bff5a5
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:44:18 2017 +0300
+
+    Update my_documentation.md
+
+commit 3e08a60836905e5ba2c125df9ca0f16656e680e5
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:40:20 2017 +0300
+
+    Update my_documentation.md
+
+commit d576220696706051f9b6f5e25289bc0ed61b55ee
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:40:01 2017 +0300
+
+    Create tabs_lines.rb
+
+commit 2bd2bc73f6d654bc55a075384c3f0386602fbdf6
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:23:46 2017 +0300
+
+    Create puts_inside_print.rb
+
+commit 07f63aa79115ea324dc3bf87d3c5a0a060e51a46
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:23:17 2017 +0300
+
+    Update my_documentation.md
+
+commit 415ab322f0f81119e702493b60d1c91c472535b6
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:18:50 2017 +0300
+
+    Update my_documentation.md
+
+commit 49b6d2f52b8b9993fc4d3c908fb809ca57dd718e
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:17:40 2017 +0300
+
+    Update my_documentation.md
+
+commit 828f98fb717573ac0e8090decfbd7bc8f3676f33
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:14:34 2017 +0300
+
+    Update gender_and_age.rb
+
+commit a67919e62f39df42bc58ac73a52589fe8a347533
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sun Jul 2 00:11:37 2017 +0300
+
+    Create gender_and_age.rb
+
+commit 78c570b23074cc019370126c614c63d7eb49181c
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 23:41:47 2017 +0300
+
+    Create alive_or_dead.rb
+
+commit 24b2ab84975fa17dedee01262ad0cc21bbb4677a
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 19:06:41 2017 +0300
+
+    until loop
+
+commit 5d811579b9ac98a8159e8b13891099f3d399dd81
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 19:05:19 2017 +0300
+
+    until loop
+
+commit d283216389473e33d92099e03c36740e67c41241
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:59:44 2017 +0300
+
+    post while doc
+
+commit cb72ab13ac0e394dcfcc66866d99e7591e649e1f
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:57:30 2017 +0300
+
+    post while
+
+commit 7709d765a09ffaba07e18442531c6641df3915ac
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:55:18 2017 +0300
+
+    Structure change
+
+commit 4864128c832bbc4d7505691dd540ba578cbcef9d
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:50:14 2017 +0300
+
+    Update my_documentation.md
+
+commit 517177c38da653264b29465189870d9902316eab
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:48:14 2017 +0300
+
+    while -> docs
+
+commit 84cdd2702d5f60bc647daede70f54720ed235eea
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:46:21 2017 +0300
+
+    nums till 100
+
+commit 3de71cbd5d96c679b82ffd2b9bafc1b843368e94
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:26:32 2017 +0300
+
+    vars
+
+commit 8812906e19e27a65cce37c68b26caedf937c9c96
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:20:55 2017 +0300
+
+    conditionals
+
+commit f0d00b5878a5c6aa9707a060f1b97f20ecb289e5
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:17:34 2017 +0300
+
+    updated docs
+
+commit 46c727c002fd988bcde94cfc251195ae7c780326
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Sat Jul 1 18:16:25 2017 +0300
+
+    unless beer
+
+commit 081c0c87f98cfe8df642f7d8c1ee93b7f51ede5f
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 21:29:03 2017 +0300
+
+    ==
+
+commit ac350f394f24d369ecdf5d21ab045f2b328c9baa
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 21:20:07 2017 +0300
+
+    Update my_documentation.md
+
+commit 4e476a0d1971c60e18a69eed3a74d6cc8d2008b2
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 21:16:54 2017 +0300
+
+    comments
+
+commit 7602dab0712d044c89977df41ac7784061e8a849
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 21:14:06 2017 +0300
+
+    comments
+
+commit b1bab07efd3205bb0580139d24013369e5c942e9
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 21:11:33 2017 +0300
+
+    chomp
+
+commit 38e869397e29d7b4a27e2cce701c6df8cf59c1b0
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 17:04:22 2017 +0300
+
+    arrays
+
+commit 36ac8133401403e5e4a68b738b21202e6092a4fa
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 17:00:37 2017 +0300
+
+    Update my_documentation.md
+
+commit d5c27b97b84fe0d45d5d33796fa37d7caaa2ec89
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:59:27 2017 +0300
+
+    Update my_documentation.md
+
+commit f196a725d1eebd1bda78293abe647a8f4c9ae722
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:58:21 2017 +0300
+
+    s
+
+commit 6a59d2a150898734a2842455fce08b5545c5e942
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:55:46 2017 +0300
+
+    update docs
+
+commit cd075a96194779aeeda25d8a40b807e92e4f70fd
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:54:17 2017 +0300
+
+    split string
+
+commit c9f533539259d30e99a5d3166affeee5ed5999b3
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:52:52 2017 +0300
+
+    get some chars from a string
+
+commit 8caf65f53e43629b12c07bafc7cb6ea4d6dfed9f
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:50:49 2017 +0300
+
+    string properties
+
+commit 795df4f9360faa9780d04b93d31a9ed06be06079
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:47:02 2017 +0300
+
+    are you 5
+
+commit 5f08887e46d21792c4e7db5bf0caa41f65427052
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:43:51 2017 +0300
+
+    if else
+
+commit 13f9c43d8f1bbc81b4d1bf479660a4bed6048f14
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:40:25 2017 +0300
+
+    more gets
+
+commit 2a1a120c82895b235f92e6e3143d4c83f4527dd8
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:35:23 2017 +0300
+
+    add math
+
+commit 6ddd982e30cd811f3b26053cd1115becd7547023
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:34:33 2017 +0300
+
+    add math
+
+commit de380e80d521092f388c025bee0f284f76073445
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:33:43 2017 +0300
+
+    add math
+
+commit 279a85dee593dec5f60eb221000d381dca57f9c8
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:26:03 2017 +0300
+
+    Update
+
+commit 25a14161a1b54fa1519fa87bc256510773afd2e0
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:24:11 2017 +0300
+
+    started docs
+
+commit d4f0c8d1ea4d46b606ba1fb4f0f53425a67c3fd7
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:17:20 2017 +0300
+
+    puts and gets
+
+commit 983fb44869eefea9b61a8558bb4ce7b1e625293e
+Author: Karina <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:13:38 2017 +0300
+
+    helloo world
+
+commit 4ca38cccd7cfde7250b57ebffb8cf820a32c587f
+Author: Karina Kozarova <karinakozarova1303@gmail.com>
+Date:   Fri Jun 30 16:11:26 2017 +0300
+
+    Initial commit
